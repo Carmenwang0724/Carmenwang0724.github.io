@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-I am currently a second-year Master’s student in Applied Mathematics at Fudan University. My research focuses on artificial intelligence and machine learning, with particular emphasis on probability distribution modeling, generative models (especially diffusion models), as well as the multimodal representation learning. **I will apply for a PhD in Fall 2026 and seek advisors and collaborators with a mathematics background who share an interest in AI. I believe mathematics is the key to solving fundamental AI challenges.**
+I'm a high school junior based in Portland, Oregon with a strong interest in Applied Mathematics and Machine Learning. I enjoy exploring real-world problems through data, building models, and developing tools that bridge theory and application. I'm currently working on research projects involving environmental modeling, mathematical modeling of physical systems, and archetectures analysis. I'm always excited to learn new tools, collaborate on interesting problems, and push the boundaries of what I understand. **I will apply for a PhD in Fall 2026 and seek advisors and collaborators with a mathematics background who share an interest in AI. I believe mathematics is the key to solving fundamental AI challenges.**
 
 Feel free to reach out if you’d like to learn more about my work, chat, or explore potential collaborations.
 
@@ -30,20 +30,6 @@ Feel free to reach out if you’d like to learn more about my work, chat, or exp
 <!-- Honored to collaborate with them on these promising projects. -->
 
 # 📝 Publications 
-
-
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv preprint</div><img src='images/2024_09_PAPL_SLAM/PAPL_SLAM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[PAPL-SLAM: Principal Axis-Anchored Monocular Point-Line SLAM](https://arxiv.org/pdf/2410.12324)
-
- **Guanghao Li**, Yu Cao, Qi Chen, Yifan Yang, Jian Pu
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6nkKQDIAAAAJ&citation_for_view=6nkKQDIAAAAJ:9yKSN-GCB0IC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-
-- PAPL-SLAM is a point-line SLAM system that efficiently integrates line structural information and optimization by anchoring lines to a principal axis, reducing the number of parameters, and utilizing probabilistic data association, enabling robust, rapid, and accurate mapping and tracking in both indoor and outdoor environments.
-</div>
-</div> -->
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/2025_06_DarkISP/DarkISP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -90,11 +76,10 @@ Yibo Gao, Zheyao Gao, **Xin Gao**, Yuanye Liu, Bomin Wang, Xiahai Zhuang
 
 
 # 🎖 Honors and Awards
-- 2023.09 Fudan University Zhicheng Freshman Second Prize Scholarship (Top 5%)
-- 2023.06 Outstanding Graduate of Shanghai
-- 2022.11 Second Prize in the Chinese Mathematics Competitions (Category A)
-- 2021.12 National Scholarship, China
-- 2021.09 National Second Prize in the China Undergraduate Mathematical Contest in Modeling
+- 2024.11 HIMCM Honorable Mention
+- 2024.11 AMC 12B 94.5
+- 2025.03 ASE Environmental Science First Price
+- 2025.05 NASA Earth System Science Project Award
 - 2020.12 Shanghai Scholarship
 
 <!-- # 👨‍💼 Academic Service
@@ -111,56 +96,6 @@ Yibo Gao, Zheyao Gao, **Xin Gao**, Yuanye Liu, Bomin Wang, Xiahai Zhuang
 - *2025.05 - Now*, [Shanghai Ailab](https://www.shlab.org.cn/), Shanghai, China.
 
 
-# 📚 Learning Materials
-
-😁 If you want the following material without watermarks, please contact me using the email address and specify your intended use.  
-
-## Material 1: [Frontiers in Diffusion Model Technologies (1)](1-diffusion-page)
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/materials/diffusion.png' alt="Material 1 Image" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    
-  This document provides an overview of key concepts related to diffusion models, particularly focusing on the theoretical foundations, development timeline, and recent advancements in the field. The content includes detailed discussions on **VAE, DDPM, DDIM, SDE, and ODE, as well as conditional guidance**. It also covers the evolution of stable diffusion, including topics like **Latent Diffusion, VQ-VAE, and DiT**. Lastly, the document highlights the latest methodology, **IC-Light**, set to be presented at [ICLR 2025](https://openreview.net/forum?id=u1cQYxRI1H).
-  
-  </div>
-</div>
-
-
-## Material 2: [Tutorial of Information Geometry and t3-VAE](2-t3VAE-page)
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/materials/t3VAE.png' alt="Material 2 Image" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    
-  This document introduces the t3-Variational Autoencoder ([ICLR 2024](https://openreview.net/pdf?id=RzNlECeoOB)), which uses **Student’s t-distributions to model heavy-tailed data distributions** and improve latent variable representations. It also explores the framework of **Information Geometry**, focusing on how generative models can be understood through **statistical manifolds, divergences, and Riemannian metrics**, providing a deeper understanding of probability distributions and their applications in machine learning, signal processing, and neuroscience.
-  
-  </div>
-</div>
-
-
-## Material 3: [EM Algorithm and X-metric](3-xmetric-page)
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/materials/xmetric.png' alt="Material 3 Image" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-  This document introduces the X-metric framework ([PAMI 2023](https://ieeexplore.ieee.org/document/9965747)), an **N-dimensional information-theoretic approach** designed for groupwise registration and deep combined computing, with applications in advanced machine learning tasks. It also covers the theoretical foundations, including **entropy, mutual information, and the MLE algorithm**, alongside the framework's modifications for deep computing and network training.
-
-  </div>
-</div>
 
 
 
