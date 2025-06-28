@@ -18,7 +18,8 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-I'm a high school junior based in Portland, Oregon with a strong interest in Applied Mathematics and Machine Learning. I enjoy exploring real-world problems through data, building models, and developing tools that bridge theory and application. I'm currently working on research projects involving environmental modeling, mathematical modeling of physical systems, and archetectures analysis. I'm always excited to learn new tools, collaborate on interesting problems, and push the boundaries of what I understand. **I will apply for a PhD in Fall 2026 and seek advisors and collaborators with a mathematics background who share an interest in AI. I believe mathematics is the key to solving fundamental AI challenges.**
+I'm a high school junior based in Portland, Oregon with a strong interest in Applied Mathematics and Machine Learning. 
+I enjoy exploring real-world problems through data, building models, and developing tools that bridge theory and application. I'm currently working on research projects involving environmental modeling, mathematical modeling of physical systems, and archetectures analysis. I'm always excited to learn new tools, collaborate on interesting problems, and push the boundaries of what I understand.
 
 Feel free to reach out if you’d like to learn more about my work, chat, or explore potential collaborations.
 
