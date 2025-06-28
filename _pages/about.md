@@ -24,12 +24,11 @@ Feel free to reach out if you’d like to learn more about my work, chat, or exp
 
 
 # 🔥 News
-- *2025.06*：🎉 [Dark-ISP](https://openreview.net/forum?id=7Z3G2ScIwN) is accepted by **ICCV 2025**. Congrats to Jiasheng! Hope to see you in Hawaii!
-- *2025.01*: 🎉 [MVP](https://openreview.net/forum?id=s4MwstmB8o) is accepted by **ICLR 2025**. See you in Singapore!
-- *2024.05*: 🎉 [evi-CEM](https://link.springer.com/chapter/10.1007/978-3-031-72117-5_29) is accepted by **MICCAI 2024**. Congrats to Yibo.
+- *2025.06*：🎉 [GHG Regressor](https://mail.google.com/mail/u/0/#search/NWSE/FMfcgzQZTMRctTBffTFKKbXmRCCPvtTj) qualified for **Northwest Science Expo**. Congratulations - nominated for the NWSE!
+
 <!-- Honored to collaborate with them on these promising projects. -->
 
-# 📝 Publications 
+<!-- # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/2025_06_DarkISP/DarkISP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -73,14 +72,13 @@ Yibo Gao, Zheyao Gao, **Xin Gao**, Yuanye Liu, Bomin Wang, Xiahai Zhuang
 - **evi-CEM** introduces an evidential learning approach to enhance the reliability of concept predictions in Concept Bottleneck Models, addressing concept misalignments in medical image analysis and improving performance in both supervised and label-efficient settings.
 </div>
 </div>
-
+ -->
 
 # 🎖 Honors and Awards
 - 2024.11 HIMCM Honorable Mention
 - 2024.11 AMC 12B 94.5
 - 2025.03 ASE Environmental Science First Price
 - 2025.05 NASA Earth System Science Project Award
-- 2020.12 Shanghai Scholarship
 
 <!-- # 👨‍💼 Academic Service
 - Journal Reviewer: RA-L
@@ -88,10 +86,11 @@ Yibo Gao, Zheyao Gao, **Xin Gao**, Yuanye Liu, Bomin Wang, Xiahai Zhuang
 - Teaching assistant: Embodied Intelligence -->
 
 # 📖 Educations
-- *2023.09 - 2026.06 (now)*, Master of Applied Mathematics, Fudan University, Shanghai, China.
-- *2019.09 - 2023.06*, Bachelor of Mathematics, Donghua Univeristy, Shanghai, China.
+- *2025.04 - 2025.07 (now)*, Deep Learning Specialization by Andrew Ng.
+- *2025.05 - 2025.07 (now)*, Linear Algebra by Gilbert Strang.
+- *2025.06 - 2025.08*, MehtA+ AI/ML Research Bootcamp, MIT
 
-# 💻 Internships
+<!-- # 💻 Internships
 - *2023.03 - 2023.07*, [Winning AI Lab](https://www.winning.com.cn/solution-detail.html?id=40), Shanghai, China.
 - *2025.05 - Now*, [Shanghai Ailab](https://www.shlab.org.cn/), Shanghai, China.
 
