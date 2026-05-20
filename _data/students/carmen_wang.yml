@@ -1,0 +1,89 @@
+name: "Carmen Wang"
+grade: "Rising Junior"
+high_school: "Oregon Episcopal School"
+test_scores:
+  SAT:
+    date: "2025-03"
+    composite: 1500
+    sections:
+      math: 770
+      evidence_based_reading_writing: 730
+  APs:
+    - year: "Sophomore"
+      courses:
+        - name: "Calculus BC"
+          score: 5
+        - name: "Microeconomics"
+          score: 5
+    - year: "Junior (planned)"
+      courses:
+        - "Mechanics"
+        - "Statistics"
+        - "Computer Science A"
+        - "US History"
+gpa:
+  unweighted: 3.93
+  weighted: null
+  class_rank: null
+extracurriculars:
+  - title: "AI/ML Research"
+    projects:
+      - title: "Greenhouse gas emission prediction"
+        description: "Correlation of soil properties & weather with greenhouse gas emissions; predict next year's emissions (biogeochemistry + environmental science)."
+      - title: "Volleyball trajectory prediction"
+        description: "Predicting volleyball trajectory with universal differential equation (neural networks + physics + differential equations)."
+      - title: "Rhetorical devices in Catalan literature"
+        description: "NLP project (summer camp)."
+      - title: "Medieval Sicily settlement pattern & chatbot"
+        description: "Settlement pattern analysis and sustainable chatbot (summer camp)."
+      - title: "LLM evaluation: Werewolves game"
+        description: "Made LLMs play a strategy game and analyzed differences in reasoning and algorithms."
+  - title: "Theater"
+    years: 2
+    productions: ["The Tempest", "She Kills Monsters", "Student-written plays"]
+    current_project: "Short script about Chinese traditional Blood Marriage"
+  - title: "Music"
+    instrument: "Cello"
+    ensemble: "Piano trio"
+    activities: "Monthly performances at senior care, school chapel, talks about volunteer experience; planning interviews and bios for school paper."
+  - title: "Sports"
+    sport: "Volleyball"
+    years: 5
+    team: "JV"
+  - title: "Math Club"
+    role: "Member; co-leader next year"
+  - title: "Tutoring & Competitions"
+    activities: "Tutoring middle schooler for math contests; hosting and creating problems for a middle school math competition."
+  - title: "Community Service & Tech"
+    activities:
+      - "Tech help at nearby senior care"
+      - "Volunteer tax assistance (trained for Oregon Tax Return); passed one RSI exam and preparing for the next"
+      - "Exploring AI tools (chatbot, templates) to streamline tax prep while considering privacy"
+education_plans:
+  next_year:
+    sem1: ["Mechanics (H)", "Linear Algebra (H)", "Psychology", "English 11", "Biology (H)", "Python 2"]
+    sem2: ["Differential Equations (H)", "Vector Calculus (H)", "Statistics with R (H)", "English 11", "Python 3", "Biology (H)"]
+honors:
+  - "AMC12: 118.5"
+  - "AIME: 4"
+  - "School Science Fair: Environmental Science First Prize"
+  - "State Science Fair: NASA award"
+  - "Euclid: Certificate of Distinction (top 25%)"
+  - "HIMCM: Honorable Mention"
+courses_taken_online:
+  - "MehA+ AI/ML Research Bootcamp"
+  - "Coursera: Deep Learning Specialization (Andrew Ng)"
+  - "MIT Linear Algebra (Gilbert Strang)"
+intended_majors:
+  - "Science, Technology, and Society (STS)"
+  - "Applied Math"
+  - "Applied Statistics"
+questions:
+  - "What’s something unique to you when reading my profile?"
+  - "Should I narrow down to one or two major things?"
+  - "How could I break the stereotype of Asian CS nerds when applying?"
+  - "Machine Learning is not a College Major — what majors match my interest while staying interdisciplinary?"
+  - "How much do colleges value Student Councils; other ways to show leadership?"
+self_evaluation: "I am an outgoing and funny person who is courageous to try everything; at the same time, I am a good listener attentive to people's subtle emotions."
+transcript_note: "Transcript not attached in repository; US history teacher noted A- is the highest in class and provided positive comments."
+notes: "Use this data to generate resume bullets, activity descriptions, or application drafts on request."
