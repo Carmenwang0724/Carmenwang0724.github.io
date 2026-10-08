@@ -8,196 +8,294 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<div class="intro" markdown="1">
+<p class="eyebrow">Machine learning · Computational biology · Environmental science</p>
 
-<span class='anchor' id='about-me'></span>
+# About me
+{: #about-me}
 
-I'm a high school senior at Oregon Episcopal School in Portland, Oregon, working at the intersection of machine learning, computational biology, and environmental science. Much of my recent work asks when a learned representation can be trusted to mean something: whether a world model can be made to keep one physical factor per coordinate, whether a computer-vision pipeline can tell a fruit fly's sex from a few dozen pixels of a timelapse still, and whether a national air-pollution map represents vulnerable communities as faithfully as it represents everyone else. Earlier projects used explainable AI to decode greenhouse gas dynamics in soil and mapped millions of frames of *Drosophila* behavior to study arousal and reward. I care about building tools that make the invisible legible, whether that's microbial processes in a forest or dopaminergic circuits in a fruit fly.
+I'm a high school senior at **Oregon Episcopal School** in Portland, Oregon. I study machine learning, computational biology, and environmental science, with a focus on interpretable models and reliable measurement.
 
-Feel free to reach out if you'd like to learn more about my work, chat, or explore potential collaborations.
+My recent work explores identifiable representations in world models, computer vision for fruit-fly behavior, and bias in air-pollution estimates. Earlier projects examined soil greenhouse gas fluxes and visually evoked behavior in *Drosophila*.
 
+<p class="contact-note">Interested in my work or a collaboration? <a href="mailto:wangmu@go.oes.edu">Get in touch <span aria-hidden="true">↗</span></a></p>
+</div>
 
-# 🔥 News
-- *2026.09*: Submitted my first-author manuscript on identifiability in JEPA world models for peer review (now under double-blind review).
-- *2026.09*: Joined the **Mao Lab at OHSU** as a neuroscience research volunteer, annotating cells in 3D microscopy volumes.
-- *2026.08*: Research assistant at the **Simões Lab, Reed College**: a computer-vision pipeline that scores fruit-fly sex in group recordings, delivered to the lab as a command-line tool.
-- *2026.08*: Completed the **Pioneer Academics** research program (Data Science for Sustainability) with a national audit of EJScreen's PM₂.₅ surface.
-- *2026.04*: Purple Comet Math Meet, **1st Place, Oregon State** 🥇
-- *2026*: Animal Science, **1st Place** at ASE and **3rd Place** at the Northwest Science Expo (NWSE, Oregon state fair)
-- *2025.06*: GHG Regressor nominated for **Northwest Science Expo (NWSE)**
+<span class="legacy-anchor" id="-news" aria-hidden="true"></span>
+## News
+{: #news .section-title}
 
+<ul class="dated-list news-list">
+  <li><span class="entry-date">Sep 2026</span><div>Submitted my first-author manuscript on identifiability in JEPA world models for peer review.</div></li>
+  <li><span class="entry-date">Sep 2026</span><div>Joined the <strong>Mao Lab at OHSU</strong> as a neuroscience research volunteer.</div></li>
+  <li><span class="entry-date">Aug 2026</span><div>Delivered a fruit-fly sex-scoring tool to the <strong>Simões Lab, Reed College</strong>.</div></li>
+  <li><span class="entry-date">Aug 2026</span><div>Completed <strong>Pioneer Academics</strong> with an audit of EJScreen's PM₂.₅ estimates.</div></li>
+  <li><span class="entry-date">Apr 2026</span><div><strong>1st Place in Oregon</strong>, Purple Comet Math Meet.</div></li>
+  <li><span class="entry-date">2026</span><div>Animal Science: <strong>1st Place at ASE</strong> and <strong>3rd Place at NWSE</strong>.</div></li>
+  <li><span class="entry-date">Jun 2025</span><div>GHG Regressor nominated for the <strong>Northwest Science Expo</strong>.</div></li>
+</ul>
 
-# 🔬 Research
+<span class="legacy-anchor" id="-research" aria-hidden="true"></span>
+## Research
+{: #research .section-title}
 
-<div markdown="1" style="border-left:3px solid #52adc8; padding-left:1.3em; margin-bottom:2.8em;">
+<div class="research-project" id="world-models" markdown="1">
 
-<div class="badge" style="display:inline-block; margin-bottom:0.6em;">Manuscript under review · 2026</div>
+<p class="project-meta">First-author manuscript · Under review · 2026</p>
 
-**Identifiability in JEPA World Models: Recovering One Physical Factor per Coordinate**
+### Identifiability in JEPA world models
 
-- **Question:** Joint-Embedding Predictive Architectures (JEPAs) learn world models by predicting in representation space, but the predictor can absorb any rotation of that space without changing the loss. Physical factors such as position, lighting, or pose end up mixed across coordinates, so no single coordinate can be read, monitored, or controlled on its own. Which part of the training objective is blind to this, and what is the smallest change that removes the blindness?
-- **Approach:** Replace the dense predictor with a structured predictor that treats each coordinate separately, and prove that the loss then splits into a rotation-invariant term, which selects the right subspace, and a cross-talk term, which selects the basis and aligns coordinates with factors that evolve on distinct timescales. Characterize when standard regularizers (whitening, SIGReg) stop the encoder from inventing spurious "more predictable" features, such as the square of a slow factor, and propose a regularizer that closes the remaining gap.
-- **Key result:** Across six dynamical and image benchmarks, the method raises the mean correlation coefficient (MCC) between learned coordinates and ground-truth factors by roughly fourteen points over the strongest baseline while keeping the best linear readout. Because the basis-selecting term depends only on the coordinates, it also gives a closed-form change of coordinates for released I-JEPA and V-JEPA checkpoints that raises their single-coordinate readout of physical factors several-fold without information loss.
-- **Role:** Initiated the research direction and collaborated with a PhD researcher on the theoretical analysis and controlled computational comparisons; first author of the submitted manuscript. Title, venue, and code will be posted after the review decision.
+When do predictive representations separate meaningful physical factors rather than mix them across coordinates?
+
+**Key result:** The study identifies conditions that improve the alignment between learned coordinates and physical factors while preserving predictive information.
+
+<details class="project-details" markdown="1">
+<summary>Methods and context</summary>
+
+**Approach:** Combined theoretical analysis with controlled computational experiments to study how model structure and regularization affect identifiability.
+
+**Role:** Initiated the research direction and collaborated with a PhD researcher on theoretical analysis and controlled computational comparisons. First author of the submitted manuscript.
+
+**Availability:** The manuscript is under double-blind review. The title, venue, detailed results, and code are withheld during review.
+
+</details>
 
 </div>
 
+<div class="research-project" id="fly-sex-scoring" markdown="1">
 
-<div markdown="1" style="border-left:3px solid #52adc8; padding-left:1.3em; margin-bottom:2.8em;">
+<p class="project-meta">Simões Lab, Reed College · 2026</p>
 
-<div class="badge" style="display:inline-block; margin-bottom:0.6em;">Simões Lab, Reed College · 2026</div>
+### Who is the male? Sex scoring for group-housed *Drosophila*
 
-**Who Is the Male? Sex Scoring for Group-Housed *Drosophila* from Low-Resolution Timelapse Stills**
+A computer-vision pipeline for identifying males in low-resolution timelapse recordings, packaged for routine lab use.
 
-<div style="display:flex; gap:10px; margin:0.9em 0 1em;">
-<figure style="flex:0.9; margin:0;">
-<img src="images/projects/reed_arena_which_is_male.png" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male</figcaption>
+<div class="project-figures project-figures--reed">
+<figure>
+<a href="/images/projects/reed_arena_which_is_male.png" aria-label="Enlarge figure: One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male"><img src="/images/projects/reed_arena_which_is_male.png" alt="One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male" loading="lazy" decoding="async"></a>
+<figcaption>One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male</figcaption>
 </figure>
-<figure style="flex:1.47; margin:0;">
-<img src="images/projects/reed_ranked_crops.png" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">Within-well ranking by male score for three sampled frames (rank 1 = strongest male evidence)</figcaption>
-</figure>
-</div>
-
-- **Setup:** The lab records six-well arenas of five flies each, stocked at different sex ratios, as timelapse stills taken every 2.4 seconds (about 0.4 Hz). FlyTracker gives each fly a position and body axis but no sex, and its identity labels swap often at this frame rate, so courtship and mating analyses had no reliable way to follow the males.
-- **Pipeline:** Still → FlyTracker position → small crop around each fly → ImageNet-pretrained ResNet-18 trained on 1,124 hand-labelled crops → per-fly male score → within-well ranking on every scored frame. Validation is split by recording date, never by frame, because the five flies in a well are the same individuals across thousands of frames.
-- **Key result:** Held-out validation across three recording dates gave mean accuracy 0.870 and AUC 0.962; keeping only confident predictions (score outside 0.1 to 0.9, about 72% of crops) gave accuracy 0.951. Two negative results shaped the design: a classifier trained on single-sex wells looked excellent (AUC above 0.9) but was recognizing each well's imaging fingerprint rather than sex, falling to chance once per-well means were removed; and body size alone does not separate the sexes (Cohen's d = 0.14).
-- **Deliverable:** `flysex`, a pip-installable command-line package (predict, rank, export) with a quickstart, a methods-and-limitations note, and tests, so the lab can run it on new recordings without touching the research notebooks.
-
-</div>
-
-
-<div markdown="1" style="border-left:3px solid #52adc8; padding-left:1.3em; margin-bottom:2.8em;">
-
-<div class="badge" style="display:inline-block; margin-bottom:0.6em;">Pioneer Academics · 2026</div>
-
-**Social Vulnerability and Prediction Error in Particulate Matter Exposure: Does EJScreen's PM₂.₅ Surface Reproduce the Disparity Its Own Monitors Record?**
-
-<div style="display:flex; gap:10px; margin:0.9em 0 1em;">
-<figure style="flex:1.8; margin:0;">
-<img src="images/projects/pm25_study_area.png" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability</figcaption>
-</figure>
-<figure style="flex:1.64; margin:0;">
-<img src="images/projects/pm25_gradient_attenuation.png" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">Measured vs. reported PM₂.₅ against social vulnerability: the surface retains 79.9% of the measured gradient</figcaption>
+<figure>
+<a href="/images/projects/reed_ranked_crops.png" aria-label="Enlarge figure: Within-well ranking by male score for three sampled frames (rank 1 = strongest male evidence)"><img src="/images/projects/reed_ranked_crops.png" alt="Within-well ranking by male score for three sampled frames (rank 1 = strongest male evidence)" loading="lazy" decoding="async"></a>
+<figcaption>Within-well ranking by male score for three sampled frames (rank 1 = strongest male evidence)</figcaption>
 </figure>
 </div>
 
-- **Setup:** EJScreen, the EPA's environmental-justice screening tool, reports an annual mean PM₂.₅ concentration for every census tract by fusing monitor observations with a chemical transport model. For the 847 tracts that contained a regulatory monitor in 2020, I compared the reported value with the concentration measured at the monitor and regressed the residual on the tract's rank in the CDC/ATSDR Social Vulnerability Index for the same year. Final research report for Pioneer Academics' Data Science for Sustainability program, mentored by Prof. Deborah Sunter.
-- **Key finding:** Aggregate agreement is close (mean absolute error 0.79 µg/m³, 9.8% of the mean; r = 0.91), yet the surface flattens the social gradient: measured PM₂.₅ rises 3.36 µg/m³ across the national vulnerability range while the reported value rises 2.68, so the surface retains 79.9% of the measured gradient (95% CI 73.4 to 86.1). Between the most and least vulnerable deciles, a measured gap of 3.20 µg/m³ is reported as 2.55.
-- **Interpretation:** The shortfall is detected along poverty and education and not detected along racial composition (the confidence intervals overlap, so the axes cannot be ranked against each other), and it is accounted for statistically by concentration: vulnerable tracts sit higher in the distribution, and the surface compresses high concentrations toward the middle, as any squared-error fit does. Because monitor observations are inputs to the fusion, the retained share is an upper bound. Screening surfaces should be evaluated on the disparity they reproduce, not on average error alone.
+**Key result:** Held-out validation across three recording dates gave mean accuracy 0.870 and AUC 0.962; keeping only confident predictions (score outside 0.1 to 0.9, about 72% of crops) gave accuracy 0.951. Two negative results shaped the design: a classifier trained on single-sex wells looked excellent (AUC above 0.9) but was recognizing each well's imaging fingerprint rather than sex, falling to chance once per-well means were removed; and body size alone does not separate the sexes (Cohen's d = 0.14).
+
+<details class="project-details" markdown="1">
+<summary>Methods and context</summary>
+
+**Setup:** The lab records six-well arenas of five flies each, stocked at different sex ratios, as timelapse stills taken every 2.4 seconds (about 0.4 Hz). FlyTracker gives each fly a position and body axis but no sex, and its identity labels swap often at this frame rate, so courtship and mating analyses had no reliable way to follow the males.
+
+**Pipeline:** Still → FlyTracker position → small crop around each fly → ImageNet-pretrained ResNet-18 trained on 1,124 hand-labeled crops → per-fly male score → within-well ranking on every scored frame. Validation is split by recording date, never by frame, because the five flies in a well are the same individuals across thousands of frames.
+
+**Deliverable:** `flysex`, a pip-installable command-line package (predict, rank, export) with a quickstart, a methods-and-limitations note, and tests, so the lab can run it on new recordings without touching the research notebooks.
+
+</details>
 
 </div>
 
+<div class="research-project" id="pm25-audit" markdown="1">
 
-<div markdown="1" style="border-left:3px solid #52adc8; padding-left:1.3em; margin-bottom:2.8em;">
+<p class="project-meta">Pioneer Academics · 2026</p>
 
-<div class="badge" style="display:inline-block; margin-bottom:0.6em;">Poster 2025</div>
+### Social vulnerability and error in EJScreen’s PM₂.₅ estimates
 
-**Computational Ethology of Visually Evoked Hyperarousal: Disentangling Kinematic Proxies of Optic-Flow Modulation in Drosophila Using Explainable Deep Learning**
+An audit of whether a national air-pollution surface preserves the exposure disparities measured by regulatory monitors.
 
-<div style="display:flex; gap:10px; margin:0.9em 0 1em;">
-<figure style="flex:1; margin:0;">
-<img src="images/projects/5d2f7f1b2ceef661f12ad4c94b764f32.jpg" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">Inverted arena: iPad Pro (120Hz) + global-shutter CMOS, red-pass filter</figcaption>
+<div class="project-figures">
+<figure>
+<a href="/images/projects/pm25_study_area.png" aria-label="Enlarge figure: 847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability"><img src="/images/projects/pm25_study_area.png" alt="847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability" loading="lazy" decoding="async"></a>
+<figcaption>847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability</figcaption>
 </figure>
-<figure style="flex:1; margin:0;">
-<img src="images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus</figcaption>
-</figure>
-</div>
-
-- **Setup:** Apterous *Drosophila* (N=30) in PTFE-coated 6-well plates, exposed to 32 pseudo-randomized visual parameter combinations (speed 2–15Hz, flicker 0–10Hz, centripetal/centrifugal flow) with 20s active / 40s washout blocks.
-- **Pipeline:** UNet body-part tracker (head/thorax/abdomen) → kinematic feature extraction (velocity, spine angle, thigmotaxis index, postural jitter) → Gaussian Mixture VAE embedding into a 20-cluster behavioral atlas.
-- **Key finding:** Centripetal optic flow (8Hz) + 2Hz flicker suppresses wall-following and induces sustained center-tracking, a behavioral proxy for dopaminergic incentive salience. Mutual information analysis confirmed flow direction and flicker as the primary causal knobs; behavioral sensitization persisted across a 24-hour sleep-wake cycle.
-- **Application:** Parametric visual-frequency library for non-pharmacological reward modulation, deployable via $50 WebXR headsets.
-
-</div>
-
-
-<div markdown="1" style="border-left:3px solid #52adc8; padding-left:1.3em; margin-bottom:2.8em;">
-
-<div class="badge" style="display:inline-block; margin-bottom:0.6em;">NWSE 2025</div>
-
-**SHAP Value-Based Random Forest Regressor: Modeling Greenhouse Gas Flux with Explainable AI**
-
-<div style="display:flex; gap:10px; margin:0.9em 0 1em;">
-<figure style="flex:1; margin:0;">
-<img src="images/projects/90efd38fc9eaaf495256dfbd414ba254.png" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">Field sampling: chamber-syringe protocol + gas chromatography</figcaption>
-</figure>
-<figure style="flex:1; margin:0;">
-<img src="images/projects/4402236d7d4e8ae84c791a71a6b3f753.jpg" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">SHAP waterfall: feature-level contribution to predicted CO₂ flux</figcaption>
+<figure>
+<a href="/images/projects/pm25_gradient_attenuation.png" aria-label="Enlarge figure: Measured vs. reported PM₂.₅ against social vulnerability: the surface retains 79.9% of the measured gradient"><img src="/images/projects/pm25_gradient_attenuation.png" alt="Measured vs. reported PM₂.₅ against social vulnerability: the surface retains 79.9% of the measured gradient" loading="lazy" decoding="async"></a>
+<figcaption>Measured vs. reported PM₂.₅ against social vulnerability: the surface retains 79.9% of the measured gradient</figcaption>
 </figure>
 </div>
 
-- **Setup:** Trained on 672 open static-chamber records from a tropical forest landscape in Malaysian Borneo (SAFE project), using seven predictors (soil moisture, soil and air temperature, pH, bulk density, soil carbon, elevation) retained after Pearson screening of 17 candidates. In parallel, measured the same soil properties and CH₄, CO₂, and N₂O fluxes by gas chromatography along transects in a forest and a wetland on the OES campus, using a chamber-syringe protocol (four draws per chamber at T0, T10, T20, T30).
-- **Model:** Random Forest regressor interpreted with SHAP; on held-out data it explained 14% of the variance in CH₄ flux, 59% in CO₂, and 75% in N₂O. Attributions matched known biogeochemistry: moisture and compaction raised CH₄ predictions, temperature and moisture dominated CO₂, and moisture with low pH dominated N₂O, the signature of denitrification.
-- **Key finding:** At the campus sites the model ranked the forest and wetland correctly for all three gases and matched the forest CH₄ flux within 10%, but it under-predicted wetland CH₄ threefold and over-predicted CO₂ and N₂O, because a tree ensemble trained on soils at 23 to 25 °C cannot extrapolate to a 12 °C November soil. Wetland CH₄ confirmed anaerobic methanogenesis.
+**Key finding:** Aggregate agreement is close (mean absolute error 0.79 µg/m³, 9.8% of the mean; r = 0.91), yet the surface flattens the social gradient: measured PM₂.₅ rises 3.36 µg/m³ across the national vulnerability range while the reported value rises 2.68, so the surface retains 79.9% of the measured gradient (95% CI 73.4% to 86.1%). Between the most and least vulnerable deciles, a measured gap of 3.20 µg/m³ is reported as 2.55.
+
+<details class="project-details" markdown="1">
+<summary>Methods and context</summary>
+
+**Setup:** EJScreen, the EPA's environmental-justice screening tool, reports an annual mean PM₂.₅ concentration for every census tract by fusing monitor observations with a chemical transport model. For the 847 tracts that contained a regulatory monitor in 2020, I compared the reported value with the concentration measured at the monitor and regressed the residual on the tract's rank in the CDC/ATSDR Social Vulnerability Index for the same year. Final research report for Pioneer Academics' Data Science for Sustainability program, mentored by Prof. Deborah Sunter.
+
+**Interpretation:** The shortfall is detected along poverty and education and not detected along racial composition (the confidence intervals overlap, so the axes cannot be ranked against each other), and it is accounted for statistically by concentration: vulnerable tracts sit higher in the distribution, and the surface compresses high concentrations toward the middle, consistent with regression toward the mean. Because monitor observations also inform the fused surface, this comparison may overstate performance at unmonitored locations. Screening surfaces should be evaluated on the disparity they reproduce, not on average error alone.
+
+</details>
 
 </div>
 
+<div class="research-project" id="visual-behavior" markdown="1">
 
-<div markdown="1" style="border-left:3px solid #52adc8; padding-left:1.3em; margin-bottom:2.8em;">
+<p class="project-meta">Research poster · 2025</p>
 
-<div class="badge" style="display:inline-block; margin-bottom:0.6em;">ASE 1st Place 2025</div>
+### Mapping visually evoked behavior in *Drosophila*
 
-**The Influence of Oxygen Availability and Ammonium Addition on Nitrogen Cycling in Controlled Soil Microcosms**
+Tracking and embedding fruit-fly movement to study responses to controlled visual stimuli.
 
-<div style="display:flex; gap:10px; margin:0.9em 0 1em;">
-<figure style="flex:1; margin:0;">
-<img src="images/projects/6dc7dd7352cbbfabb19d77df8dd6b65f.png" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">4-treatment airtight microcosms with syringe gas collection and KCl extraction</figcaption>
+<div class="project-figures">
+<figure>
+<a href="/images/projects/5d2f7f1b2ceef661f12ad4c94b764f32.jpg" aria-label="Enlarge figure: Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter"><img src="/images/projects/5d2f7f1b2ceef661f12ad4c94b764f32.jpg" alt="Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter" loading="lazy" decoding="async"></a>
+<figcaption>Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter</figcaption>
 </figure>
-<figure style="flex:1; margin:0;">
-<img src="images/projects/85b8771a26094ef97ab2eeada29676d4.jpg" width="100%" style="border-radius:5px; display:block;">
-<figcaption style="font-size:0.78em; color:#888; text-align:center; margin-top:5px;">Nitrification rate and denitrification efficiency across four treatments</figcaption>
+<figure>
+<a href="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" aria-label="Enlarge figure: 5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus"><img src="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" alt="5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus" loading="lazy" decoding="async"></a>
+<figcaption>5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus</figcaption>
 </figure>
 </div>
 
-- **Setup:** Four airtight 1L jars (300g soil each) across two oxygen conditions × ±NH₄Cl addition. Anaerobic jars evacuated by hand pump. Headspace gas collected via syringe at 0, 24, 48, 72h and analyzed by gas chromatography; NH₄⁺/NO₃⁻ measured by microplate reader after 2N KCl extraction.
-- **Key finding:** Anaerobic + NH₄Cl produced the highest denitrification efficiency (11.86%) and peak N₂O at 48h (5.707 ppm), confirming that oxygen availability is the primary switch between nitrification and denitrification pathways. N₂O peaking at 48h reflects optimal denitrifier activity before substrate depletion.
+**Key finding:** Centripetal optic flow (8 Hz) + 2 Hz flicker suppresses wall-following and induces sustained center-tracking, a behavioral response that motivates further study of arousal and reward. Mutual information analysis identified flow direction and flicker as the strongest measured associations with behavior; the response persisted across a 24-hour sleep-wake cycle.
+
+<details class="project-details" markdown="1">
+<summary>Methods and context</summary>
+
+**Setup:** Apterous *Drosophila* (N = 30) in PTFE-coated 6-well plates, exposed to 32 pseudo-randomized visual parameter combinations (speed 2 to 15 Hz, flicker 0 to 10 Hz, centripetal/centrifugal flow) with 20 s active / 40 s washout blocks.
+
+**Pipeline:** UNet body-part tracker (head/thorax/abdomen) → kinematic feature extraction (velocity, spine angle, thigmotaxis index, postural jitter) → Gaussian Mixture VAE embedding into a 20-cluster behavioral atlas.
+
+**Potential application:** A visual-stimulus library for follow-up experiments on arousal and reward.
+
+</details>
+
+</div>
+
+<div class="research-project" id="greenhouse-gases" markdown="1">
+
+<p class="project-meta">NWSE · 2025</p>
+
+### Modeling greenhouse gas flux with explainable AI
+
+A random forest trained on Borneo soil data, interpreted with SHAP and tested on forest and wetland sites at OES.
+
+<div class="project-figures">
+<figure>
+<a href="/images/projects/90efd38fc9eaaf495256dfbd414ba254.png" aria-label="Enlarge figure: Field sampling: chamber-syringe protocol + gas chromatography"><img src="/images/projects/90efd38fc9eaaf495256dfbd414ba254.png" alt="Field sampling: chamber-syringe protocol + gas chromatography" loading="lazy" decoding="async"></a>
+<figcaption>Field sampling: chamber-syringe protocol + gas chromatography</figcaption>
+</figure>
+<figure>
+<a href="/images/projects/4402236d7d4e8ae84c791a71a6b3f753.jpg" aria-label="Enlarge figure: SHAP waterfall: feature-level contribution to predicted CO₂ flux"><img src="/images/projects/4402236d7d4e8ae84c791a71a6b3f753.jpg" alt="SHAP waterfall: feature-level contribution to predicted CO₂ flux" loading="lazy" decoding="async"></a>
+<figcaption>SHAP waterfall: feature-level contribution to predicted CO₂ flux</figcaption>
+</figure>
+</div>
+
+**Key finding:** At the campus sites the model ranked the forest and wetland correctly for all three gases and matched the forest CH₄ flux within 10%, but it under-predicted wetland CH₄ threefold and over-predicted CO₂ and N₂O. This is consistent with a limitation of tree ensembles: a model trained on soils at 23 to 25 °C cannot reliably extrapolate to 12 °C November soil. Wetland CH₄ was consistent with anaerobic methanogenesis.
+
+<details class="project-details" markdown="1">
+<summary>Methods and context</summary>
+
+**Setup:** Trained on 672 open static-chamber records from a tropical forest landscape in Malaysian Borneo (SAFE project), using seven predictors (soil moisture, soil and air temperature, pH, bulk density, soil carbon, elevation) retained after Pearson screening of 17 candidates. In parallel, measured the same soil properties and CH₄, CO₂, and N₂O fluxes by gas chromatography along transects in a forest and a wetland on the OES campus, using a chamber-syringe protocol (four draws per chamber at T0, T10, T20, T30).
+
+**Model:** Random Forest regressor interpreted with SHAP; on held-out data it explained 14% of the variance in CH₄ flux, 59% in CO₂, and 75% in N₂O. Attributions matched known biogeochemistry: moisture and compaction raised CH₄ predictions, temperature and moisture dominated CO₂, and moisture with low pH dominated N₂O, a pattern consistent with denitrification.
+
+</details>
+
+</div>
+
+<div class="research-project" id="soil-microcosms" markdown="1">
+
+<p class="project-meta">ASE 1st Place · 2025</p>
+
+### Oxygen availability and nitrogen cycling in soil microcosms
+
+A controlled experiment on how oxygen and ammonium availability affect nitrogen cycling.
+
+<div class="project-figures">
+<figure>
+<a href="/images/projects/6dc7dd7352cbbfabb19d77df8dd6b65f.png" aria-label="Enlarge figure: 4-treatment airtight microcosms with syringe gas collection and KCl extraction"><img src="/images/projects/6dc7dd7352cbbfabb19d77df8dd6b65f.png" alt="4-treatment airtight microcosms with syringe gas collection and KCl extraction" loading="lazy" decoding="async"></a>
+<figcaption>4-treatment airtight microcosms with syringe gas collection and KCl extraction</figcaption>
+</figure>
+<figure>
+<a href="/images/projects/85b8771a26094ef97ab2eeada29676d4.jpg" aria-label="Enlarge figure: Nitrification rate and denitrification efficiency across four treatments"><img src="/images/projects/85b8771a26094ef97ab2eeada29676d4.jpg" alt="Nitrification rate and denitrification efficiency across four treatments" loading="lazy" decoding="async"></a>
+<figcaption>Nitrification rate and denitrification efficiency across four treatments</figcaption>
+</figure>
+</div>
+
+**Key finding:** Anaerobic + NH₄Cl produced the highest denitrification efficiency (11.86%) and peak N₂O at 48 h (5.707 ppm), consistent with oxygen-dependent differences in nitrogen cycling.
+
+<details class="project-details" markdown="1">
+<summary>Methods and context</summary>
+
+**Setup:** Four airtight 1 L jars (300 g soil each) across two oxygen conditions × ±NH₄Cl addition. Anaerobic jars evacuated by hand pump. Headspace gas collected via syringe at 0, 24, 48, 72 h and analyzed by gas chromatography; NH₄⁺/NO₃⁻ measured by microplate reader after 2 N KCl extraction.
+
+</details>
 
 </div>
 
 
-# 🧪 Research Experience
-- *2026.09 - Present*, **Mao Lab, Oregon Health & Science University (OHSU)**, Neuroscience Research Volunteer. Annotating cells in 3D microscopy volumes in napari: locating cell centers across slices, reviewing trial annotations with the lab's imaging lead, and resolving ambiguous cases where one structure could be marked twice. The labels serve as ground truth for the lab's segmentation models.
-- *2026.05 - 2026.09*, **Simões Lab, Reed College**, Research Assistant. Computer vision for group-housed *Drosophila*: built and validated the sex-scoring pipeline above and packaged it for routine lab use (in residence Aug 2026).
-- *2026 Summer*, **Pioneer Academics, Data Science for Sustainability**, Student Researcher (mentor Prof. Deborah Sunter). Wrote the EJScreen PM₂.₅ audit above as a final research report with a reproducible supplement and presented it in the program's final session.
+<span class="legacy-anchor" id="-research-experience" aria-hidden="true"></span>
+## Research experience
+{: #experience .section-title}
 
+<div class="experience-list">
+<article class="experience-entry">
+  <p class="entry-date">Sep 2026 to present</p>
+  <div>
+    <h3>Mao Lab, Oregon Health &amp; Science University</h3>
+    <p class="entry-role">Neuroscience Research Volunteer</p>
+    <p>Annotating cells in 3D microscopy volumes in napari, reviewing trial annotations with the lab's imaging lead, and resolving ambiguous cases. The labels serve as ground truth for segmentation models.</p>
+  </div>
+</article>
+<article class="experience-entry">
+  <p class="entry-date">May to Sep 2026</p>
+  <div>
+    <h3>Simões Lab, Reed College</h3>
+    <p class="entry-role">Research Assistant</p>
+    <p>Built and validated a sex-scoring pipeline for group-housed <em>Drosophila</em> and packaged it for routine lab use. In residence in August 2026.</p>
+  </div>
+</article>
+<article class="experience-entry">
+  <p class="entry-date">Summer 2026</p>
+  <div>
+    <h3>Pioneer Academics</h3>
+    <p class="entry-role">Student Researcher · Data Science for Sustainability</p>
+    <p>Audited EJScreen's PM₂.₅ estimates with Prof. Deborah Sunter. Wrote a final research report with a reproducible supplement and presented it in the program's final session.</p>
+  </div>
+</article>
+</div>
 
-# 🏆 Honors & Awards
-- *2026.04* Purple Comet Math Meet, **1st Place, Oregon State**
-- *2026* Northwest Science Expo (NWSE, Oregon state fair), Animal Science, **3rd Place**
-- *2026* Aardvarks Science Exposition (ASE), Animal Science, **1st Place**
-- *2025, 2026* AIME Qualifier
-- *2025.05* NASA Earth System Science Project Award (NWSE)
-- *2025.03* ASE Environmental Science, **1st Place**
-- *2024.11* HiMCM, Honorable Mention
-- *2024.11* AMC 12: 118.5 (top 5%) &nbsp;|&nbsp; AMC 12B: 94.5
+<span class="legacy-anchor" id="-honors--awards" aria-hidden="true"></span>
+## Honors & awards
+{: #honors .section-title}
 
+<ul class="dated-list awards-list">
+  <li><span class="entry-date">Apr 2026</span><div>Purple Comet Math Meet · <strong>1st Place, Oregon State</strong></div></li>
+  <li><span class="entry-date">2026</span><div>Northwest Science Expo, Animal Science · <strong>3rd Place</strong></div></li>
+  <li><span class="entry-date">2026</span><div>Aardvarks Science Exposition, Animal Science · <strong>1st Place</strong></div></li>
+  <li><span class="entry-date">2025, 2026</span><div><strong>AIME Qualifier</strong></div></li>
+  <li><span class="entry-date">May 2025</span><div><strong>NASA Earth System Science Project Award</strong> · NWSE</div></li>
+  <li><span class="entry-date">Mar 2025</span><div>ASE Environmental Science · <strong>1st Place</strong></div></li>
+  <li><span class="entry-date">Nov 2024</span><div>HiMCM · Honorable Mention</div></li>
+  <li><span class="entry-date">Nov 2024</span><div>AMC 12: 118.5 (top 5%) · AMC 12B: 94.5</div></li>
+</ul>
 
-# 💻 Skills
+<span class="legacy-anchor" id="-skills" aria-hidden="true"></span>
+## Skills
+{: #skills .section-title}
 
-**Programming:** Python · R · MATLAB · Java · LaTeX
+<dl class="skills-grid">
+  <div><dt>Programming</dt><dd>Python · R · MATLAB · Java · LaTeX</dd></div>
+  <div><dt>ML &amp; data</dt><dd>PyTorch · scikit-learn · SHAP · UMAP</dd></div>
+  <div><dt>Imaging &amp; behavior</dt><dd>napari · SLEAP · FlyTracker</dd></div>
+  <div><dt>Wet lab</dt><dd>Gas chromatography · Microplate reader · KCl extraction</dd></div>
+</dl>
 
-**ML & Data:** PyTorch · scikit-learn · SHAP · UMAP
+<span class="legacy-anchor" id="-education" aria-hidden="true"></span>
+## Education
+{: #education .section-title}
 
-**Imaging & Behavior:** napari · SLEAP · FlyTracker
+<div class="school-entry">
+  <h3>Oregon Episcopal School</h3>
+  <p>High school senior · Portland, Oregon</p>
+</div>
 
-**Wet Lab:** Gas Chromatography · Microplate Reader · KCl Extraction
+### Additional coursework
+{: .coursework-heading}
 
-
-# 📖 Education
-- *2025.06 - 2025.08*, MehtA+ AI/ML Research Bootcamp
-- *2025.04 - 2025.07*, Deep Learning Specialization, Andrew Ng (Coursera)
-- *2025.05 - 2025.07*, Linear Algebra, Gilbert Strang (MIT OpenCourseWare)
+<ul class="dated-list">
+  <li><span class="entry-date">Jun to Aug 2025</span><div>MehtA+ AI/ML Research Bootcamp</div></li>
+  <li><span class="entry-date">Apr to Jul 2025</span><div>Deep Learning Specialization · Andrew Ng, Coursera</div></li>
+  <li><span class="entry-date">May to Jul 2025</span><div>Linear Algebra · Gilbert Strang, MIT OpenCourseWare</div></li>
+</ul>

@@ -1,0 +1,195 @@
+/* The CV uses a single reading column and a compact, persistent profile. */
+$cv-ink: #243b40;
+$cv-muted: #57696c;
+$cv-accent: #226b70;
+$cv-rule: #dbe4e3;
+
+html { font-size: 16px; }
+body {
+  color: $cv-ink;
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+}
+
+a { color: $cv-accent; }
+a:focus-visible, summary:focus-visible {
+  outline: 2px solid $cv-accent;
+  outline-offset: 4px;
+}
+
+.masthead {
+  background: #fff;
+  border-color: $cv-rule;
+  animation: none;
+}
+.masthead__inner-wrap { max-width: 1140px; padding: 0 28px; }
+.cv-nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cv-nav a {
+  display: block;
+  padding: 16px 0;
+  color: $cv-muted;
+  font-size: .875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.cv-nav a:hover { color: $cv-accent; text-decoration: underline; text-underline-offset: 6px; }
+
+#main {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: 64px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 56px 28px 80px;
+  animation: none;
+}
+#main::before, #main::after { display: none; }
+#main > .sidebar {
+  float: none;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  align-self: start;
+  position: sticky;
+  top: 95px;
+  transform: none;
+}
+#main > .page { float: none; width: auto; min-width: 0; padding: 0; margin: 0; }
+.page__inner-wrap, .page__content { float: none !important; }
+
+.profile_box { display: block; }
+.author__avatar { display: block; width: 160px; }
+.author__avatar img {
+  display: block;
+  width: 160px;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+}
+.author__content { display: block; padding: 0; }
+.sidebar .author__name {
+  margin: 22px 0 10px;
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  letter-spacing: -.025em;
+}
+.sidebar .author__bio { margin: 0 0 20px; color: $cv-muted; font-size: .875rem; }
+.sidebar p, .sidebar li { font-family: inherit; font-size: .875rem; }
+.author__urls-wrapper { display: block; margin-left: 0; cursor: auto; }
+.author__urls { z-index: auto; }
+.author__urls li { white-space: normal; }
+.author__urls a { padding: 5px 0; }
+
+.page__content {
+  font-size: .975rem;
+  h1, h2, h3 { color: $cv-ink; }
+  h1::before, .anchor::before { content: none; }
+  #about-me { margin: 0 0 22px; scroll-margin-top: 88px; }
+  #about-me::before { content: none; }
+  h1 { border: 0; padding: 0; font-size: 2.4rem; line-height: 1.15; letter-spacing: -.04em; }
+  p { margin: 0 0 16px; }
+  .eyebrow { color: $cv-accent; font-size: .72rem; font-weight: 650; letter-spacing: .06em; margin-bottom: 18px; }
+  .intro { margin-bottom: 48px; }
+  .intro > p:not(.eyebrow):not(.contact-note) { font-size: 1.05rem; line-height: 1.8; }
+  .contact-note { color: $cv-muted; font-size: .875rem; margin-top: 22px; }
+  .contact-note a { white-space: nowrap; font-weight: 600; text-underline-offset: 3px; }
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 52px 0 24px;
+    padding: 0;
+    font-size: 1.55rem;
+    letter-spacing: -.025em;
+    scroll-margin-top: 88px;
+  }
+  .section-title::after { content: ""; flex: 1; height: 1px; background: $cv-rule; }
+  .legacy-anchor { display: block; height: 0; scroll-margin-top: 88px; }
+  .dated-list { list-style: none; padding: 0; margin: 0; }
+  .dated-list li { display: grid; grid-template-columns: 138px minmax(0, 1fr); gap: 18px; padding: 10px 0; margin: 0; }
+  .entry-date { color: $cv-muted; font-size: .8rem; font-variant-numeric: tabular-nums; padding-top: 3px; }
+  .news-list li { padding: 9px 0; }
+  .research-project { padding: 4px 0 30px; margin: 0 0 32px; border-bottom: 1px solid $cv-rule; scroll-margin-top: 88px; }
+  .research-project:last-of-type { margin-bottom: 0; }
+  .project-meta { display: inline-block; margin: 0 0 12px; color: $cv-accent; background: #edf5f3; border-radius: 4px; padding: 4px 10px; font-size: .75rem; font-weight: 600; line-height: 1.5; }
+  .research-project h3 { margin: 0 0 12px; font-size: 1.35rem; line-height: 1.4; letter-spacing: -.02em; }
+  .project-figures { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; margin: 22px 0; }
+  .project-figures--reed { grid-template-columns: minmax(0, .9fr) minmax(0, 1.47fr); }
+  .project-figures figure { display: block; width: auto; margin: 0; }
+  .project-figures a { display: flex; align-items: center; justify-content: center; height: 220px; border: 1px solid $cv-rule; border-radius: 6px; overflow: hidden; background: #fafcfb; }
+  .project-figures img { display: block; width: 100%; height: 100%; max-height: none; object-fit: contain; margin: 0; border-radius: 0; }
+  .project-figures a:hover img { box-shadow: none; }
+  .project-figures figcaption { margin: 9px 0 0; font-family: inherit; font-size: .75rem; line-height: 1.6; color: $cv-muted; text-align: left; }
+  .project-details { margin-top: 20px; background: #f5f8f7; padding: 0 16px; border-radius: 6px; }
+  .project-details summary { padding: 12px 0; cursor: pointer; color: $cv-accent; font-size: .85rem; font-weight: 600; }
+  .project-details[open] { padding-bottom: 4px; }
+  .project-details[open] summary { margin-bottom: 4px; }
+  .project-details p { font-size: .9rem; }
+  .experience-entry { display: grid; grid-template-columns: 138px minmax(0, 1fr); gap: 18px; padding: 4px 0 20px; }
+  .experience-entry h3, .school-entry h3 { font-size: 1.025rem; line-height: 1.5; margin: 0 0 4px; }
+  .experience-entry p { margin-bottom: 8px; }
+  .entry-role { color: $cv-accent; font-size: .85rem; }
+  .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 32px; margin: 0; }
+  .skills-grid dt { margin: 0 0 5px; font-family: inherit; font-size: .875rem; }
+  .skills-grid dd { margin: 0; font-family: inherit; color: $cv-muted; font-size: .9rem; }
+  .school-entry p { color: $cv-muted; font-size: .9rem; }
+  .coursework-heading { margin: 26px 0 8px; font-size: .9rem; }
+}
+
+@media (max-width: 924px) {
+  #main { display: block; max-width: 800px; padding-top: 30px; }
+  #main > .sidebar { position: static; margin-bottom: 36px; }
+  .profile_box { display: grid; grid-template-columns: 90px minmax(0, 1fr) auto; gap: 20px; align-items: center; }
+  .author__avatar, .author__avatar img { width: 90px; min-width: 0; }
+  .sidebar .author__name { margin: 0 0 8px; font-size: 1.2rem; }
+  .sidebar .author__bio { margin: 0; }
+  .author__urls_sm { display: flex; gap: 12px; padding: 0; font-size: 1.3rem; }
+  .author__urls_sm a { padding: 8px; }
+  .cv-nav ul { justify-content: space-between; gap: 16px; }
+}
+
+@media (max-width: 600px) {
+  .masthead__inner-wrap { padding: 4px 16px; }
+  .cv-nav ul { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 12px; text-align: center; }
+  .cv-nav a { padding: 6px 0; font-size: .8rem; }
+  #main { padding: 28px 20px 50px; }
+  .profile_box { grid-template-columns: 76px minmax(0, 1fr); gap: 0 16px; }
+  .author__avatar, .author__avatar img { width: 76px; }
+  .author__urls-wrapper { grid-column: 2; }
+  .author__urls_sm { margin-top: 4px; margin-left: -8px; gap: 8px; }
+  .sidebar .author__name { font-size: 1.125rem; }
+  .sidebar .author__bio { font-size: .8rem; }
+  .page__content {
+    h1 { font-size: 2rem; }
+    .eyebrow { font-size: .65rem; line-height: 1.7; }
+    .intro > p:not(.eyebrow):not(.contact-note) { font-size: 1rem; }
+    .section-title { margin-top: 40px; font-size: 1.4rem; gap: 12px; }
+    .dated-list li { grid-template-columns: 98px minmax(0, 1fr); gap: 12px; }
+    .entry-date { font-size: .72rem; }
+    .research-project h3 { font-size: 1.2rem; }
+    .project-figures, .project-figures--reed { grid-template-columns: 1fr; gap: 20px; }
+    .project-figures a { height: auto; min-height: 0; }
+    .project-figures img { height: auto; max-height: 340px; }
+    .experience-entry { grid-template-columns: 1fr; gap: 2px; }
+    .skills-grid { grid-template-columns: 1fr; gap: 16px; }
+  }
+}
+
+@media print {
+  .masthead, .author__urls_sm { display: none; }
+  #main { display: block; padding: 0; }
+  #main > .sidebar { position: static; margin-bottom: 24px; }
+  .project-details > * { display: block !important; }
+  .project-details summary { display: none !important; }
+  .page__content .research-project { break-inside: avoid; }
+}

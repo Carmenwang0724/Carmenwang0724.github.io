@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Carmen (Muzi Wang)"
+title                    : "Carmen (Muzi) Wang"
 description              : "Oregon Episcopal School"
 repository               : "Carmenwang0724/carmenwang0724.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Carmen(Muzi) Wang"
+  name             : "Carmen (Muzi) Wang"
   avatar           : "images/avatar.jpg"
   bio              : "Applied Math · ML · Environmental Science"
   location         : "Portland, Oregon"
