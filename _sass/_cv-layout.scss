@@ -252,3 +252,8 @@ a:focus-visible, summary:focus-visible {
   .project-details summary { display: none !important; }
   .page__content .research-project, .page__content .paper-box { break-inside: avoid; box-shadow: none; }
 }
+
+/* A full-width figure row for wide diagrams. */
+.page__content .project-figures--wide { grid-template-columns: minmax(0, 1fr); margin-bottom: 8px; }
+.page__content .project-figures--wide a { height: auto; padding: 10px; background: #fff; }
+.page__content .project-figures--wide img { height: auto; }

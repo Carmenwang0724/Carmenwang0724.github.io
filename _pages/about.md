@@ -262,6 +262,13 @@ A controlled experiment on how oxygen and ammonium availability affect nitrogen 
 <div class="paper-tags"><span class="paper-tag">Mathematical modeling</span><span class="paper-tag">Multi-agent RL</span><span class="paper-tag">Graph attention</span></div>
 <p class="paper-links"><a class="paper-link" href="/files/HiMCM2025_Team16980.pdf">PDF</a></p>
 
+<div class="project-figures project-figures--wide">
+<figure>
+<a href="/images/papers/himcm2025_framework.png" aria-label="Enlarge figure: Overall framework from our post-competition revision: static planner, fire simulation, greedy replanner, and graph-attention reinforcement learning"><img src="/images/papers/himcm2025_framework.png" alt="Overall framework from our post-competition revision: static planner, fire simulation, greedy replanner, and graph-attention reinforcement learning" loading="lazy" decoding="async"></a>
+<figcaption>Overall framework from our post-competition revision: static planner, fire simulation, greedy replanner, and graph-attention reinforcement learning</figcaption>
+</figure>
+</div>
+
 <div class="project-figures">
 <figure>
 <a href="/images/papers/himcm2025_gat_attention.png" aria-label="Enlarge figure: Graph-attention weights over the three-floor daycare graph; thicker edges carry more attention"><img src="/images/papers/himcm2025_gat_attention.png" alt="Graph-attention weights over the three-floor daycare graph; thicker edges carry more attention" loading="lazy" decoding="async"></a>
