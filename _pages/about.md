@@ -39,20 +39,25 @@ My recent work explores identifiable representations in world models, computer v
 ## Research
 {: #research .section-title}
 
-<div class="paper-box" id="world-models">
-<div class="paper-box-image"><div><div class="badge">Under review · 2026</div><a href="/images/papers/jepa_concept.png" aria-label="Enlarge figure: schematic of factors mixed across coordinates versus one factor per coordinate"><img src="/images/papers/jepa_concept.png" alt="Schematic: two factors mixed across coordinates on the left, aligned with one coordinate each on the right" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="world-models" markdown="1">
+
+<p class="project-meta">Under review · 2026</p>
 
 ### Identifiability in JEPA world models
 
 <p class="paper-authors"><strong>Carmen Wang</strong> (first author), with a PhD collaborator · Manuscript under double-blind review</p>
 <div class="paper-tags"><span class="paper-tag">World models</span><span class="paper-tag">Identifiability</span><span class="paper-tag">Representation learning</span></div>
 
+<div class="project-figures project-figures--single">
+<figure>
+<a href="/images/papers/jepa_concept.png" aria-label="Enlarge figure: Schematic of the question, not a result from the manuscript"><img src="/images/papers/jepa_concept.png" alt="Schematic of the question, not a result from the manuscript" loading="lazy" decoding="async"></a>
+<figcaption>Schematic of the question, not a result from the manuscript</figcaption>
+</figure>
+</div>
+
 When do predictive representations separate meaningful physical factors rather than mix them across coordinates?
 
 **Key result:** The study identifies conditions that improve the alignment between learned coordinates and physical factors while preserving predictive information.
-
-<p class="paper-note">Figure: a schematic of the question, not a result from the manuscript.</p>
 
 <details class="project-details" markdown="1">
 <summary>Methods and context</summary>
@@ -66,16 +71,26 @@ When do predictive representations separate meaningful physical factors rather t
 </details>
 
 </div>
-</div>
 
-<div class="paper-box" id="fly-sex-scoring">
-<div class="paper-box-image"><div><div class="badge">Simões Lab · 2026</div><a href="/images/projects/reed_ranked_crops.png" aria-label="Enlarge figure: Within-well ranking by male score for three sampled frames"><img src="/images/projects/reed_ranked_crops.png" alt="Within-well ranking by male score for three sampled frames (rank 1 = strongest male evidence)" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="fly-sex-scoring" markdown="1">
+
+<p class="project-meta">Simões Lab · 2026</p>
 
 ### Who is the male? Sex scoring for group-housed *Drosophila*
 
 <p class="paper-authors"><strong>Carmen Wang</strong> · Research Assistant, Simões Lab, Reed College</p>
 <div class="paper-tags"><span class="paper-tag">Computer vision</span><span class="paper-tag">ResNet-18</span><span class="paper-tag">Animal behavior</span><span class="paper-tag">Lab tool</span></div>
+
+<div class="project-figures project-figures--reed">
+<figure>
+<a href="/images/projects/reed_arena_which_is_male.png" aria-label="Enlarge figure: One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male"><img src="/images/projects/reed_arena_which_is_male.png" alt="One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male" loading="lazy" decoding="async"></a>
+<figcaption>One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male</figcaption>
+</figure>
+<figure>
+<a href="/images/projects/reed_ranked_crops.png" aria-label="Enlarge figure: Within-well ranking by male score for three sampled frames (rank 1 = strongest male evidence)"><img src="/images/projects/reed_ranked_crops.png" alt="Within-well ranking by male score for three sampled frames (rank 1 = strongest male evidence)" loading="lazy" decoding="async"></a>
+<figcaption>Within-well ranking by male score for three sampled frames (rank 1 = strongest male evidence)</figcaption>
+</figure>
+</div>
 
 A computer-vision pipeline for identifying males in low-resolution timelapse recordings, packaged for routine lab use.
 
@@ -83,13 +98,6 @@ A computer-vision pipeline for identifying males in low-resolution timelapse rec
 
 <details class="project-details" markdown="1">
 <summary>Methods and context</summary>
-
-<div class="project-figures project-figures--single">
-<figure>
-<a href="/images/projects/reed_arena_which_is_male.png" aria-label="Enlarge figure: One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male"><img src="/images/projects/reed_arena_which_is_male.png" alt="One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male" loading="lazy" decoding="async"></a>
-<figcaption>One well of a six-well arena: five flies circled by FlyTracker; the question is which one is the male</figcaption>
-</figure>
-</div>
 
 **Setup:** The lab records six-well arenas of five flies each, stocked at different sex ratios, as timelapse stills taken every 2.4 seconds (about 0.4 Hz). FlyTracker gives each fly a position and body axis but no sex, and its identity labels swap often at this frame rate, so courtship and mating analyses had no reliable way to follow the males.
 
@@ -100,16 +108,26 @@ A computer-vision pipeline for identifying males in low-resolution timelapse rec
 </details>
 
 </div>
-</div>
 
-<div class="paper-box" id="pm25-audit">
-<div class="paper-box-image"><div><div class="badge">Pioneer Academics · 2026</div><a href="/images/projects/pm25_gradient_attenuation.png" aria-label="Enlarge figure: Measured vs. reported PM2.5 against social vulnerability"><img src="/images/projects/pm25_gradient_attenuation.png" alt="Measured vs. reported PM₂.₅ against social vulnerability: the surface retains 79.9% of the measured gradient" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="pm25-audit" markdown="1">
+
+<p class="project-meta">Pioneer Academics · 2026</p>
 
 ### Social vulnerability and error in EJScreen’s PM₂.₅ estimates
 
 <p class="paper-authors"><strong>Carmen Wang</strong>; mentor Prof. Deborah Sunter · Final research report, Pioneer Academics</p>
 <div class="paper-tags"><span class="paper-tag">Environmental justice</span><span class="paper-tag">Air quality</span><span class="paper-tag">Measurement error</span></div>
+
+<div class="project-figures">
+<figure>
+<a href="/images/projects/pm25_study_area.png" aria-label="Enlarge figure: 847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability"><img src="/images/projects/pm25_study_area.png" alt="847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability" loading="lazy" decoding="async"></a>
+<figcaption>847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability</figcaption>
+</figure>
+<figure>
+<a href="/images/projects/pm25_gradient_attenuation.png" aria-label="Enlarge figure: Measured vs. reported PM₂.₅ against social vulnerability: the surface retains 79.9% of the measured gradient"><img src="/images/projects/pm25_gradient_attenuation.png" alt="Measured vs. reported PM₂.₅ against social vulnerability: the surface retains 79.9% of the measured gradient" loading="lazy" decoding="async"></a>
+<figcaption>Measured vs. reported PM₂.₅ against social vulnerability: the surface retains 79.9% of the measured gradient</figcaption>
+</figure>
+</div>
 
 An audit of whether a national air-pollution surface preserves the exposure disparities measured by regulatory monitors.
 
@@ -118,13 +136,6 @@ An audit of whether a national air-pollution surface preserves the exposure disp
 <details class="project-details" markdown="1">
 <summary>Methods and context</summary>
 
-<div class="project-figures project-figures--single">
-<figure>
-<a href="/images/projects/pm25_study_area.png" aria-label="Enlarge figure: 847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability"><img src="/images/projects/pm25_study_area.png" alt="847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability" loading="lazy" decoding="async"></a>
-<figcaption>847 census tracts with a regulatory PM₂.₅ monitor in 2020, colored by social vulnerability</figcaption>
-</figure>
-</div>
-
 **Setup:** EJScreen, the EPA's environmental-justice screening tool, reports an annual mean PM₂.₅ concentration for every census tract by fusing monitor observations with a chemical transport model. For the 847 tracts that contained a regulatory monitor in 2020, I compared the reported value with the concentration measured at the monitor and regressed the residual on the tract's rank in the CDC/ATSDR Social Vulnerability Index for the same year. Final research report for Pioneer Academics' Data Science for Sustainability program, mentored by Prof. Deborah Sunter.
 
 **Interpretation:** The shortfall is detected along poverty and education and not detected along racial composition (the confidence intervals overlap, so the axes cannot be ranked against each other), and it is accounted for statistically by concentration: vulnerable tracts sit higher in the distribution, and the surface compresses high concentrations toward the middle, consistent with regression toward the mean. Because monitor observations also inform the fused surface, this comparison may overstate performance at unmonitored locations. Screening surfaces should be evaluated on the disparity they reproduce, not on average error alone.
@@ -132,16 +143,26 @@ An audit of whether a national air-pollution surface preserves the exposure disp
 </details>
 
 </div>
-</div>
 
-<div class="paper-box" id="visual-behavior">
-<div class="paper-box-image"><div><div class="badge">Research poster · 2025</div><a href="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" aria-label="Enlarge figure: 5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus"><img src="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" alt="5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="visual-behavior" markdown="1">
+
+<p class="project-meta">Research poster · 2025</p>
 
 ### Mapping visually evoked behavior in *Drosophila*
 
 <p class="paper-authors"><strong>Carmen Wang</strong> · Independent research, Oregon Episcopal School</p>
 <div class="paper-tags"><span class="paper-tag">Computational ethology</span><span class="paper-tag">Pose tracking</span><span class="paper-tag">GMVAE</span></div>
+
+<div class="project-figures">
+<figure>
+<a href="/images/projects/5d2f7f1b2ceef661f12ad4c94b764f32.jpg" aria-label="Enlarge figure: Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter"><img src="/images/projects/5d2f7f1b2ceef661f12ad4c94b764f32.jpg" alt="Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter" loading="lazy" decoding="async"></a>
+<figcaption>Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter</figcaption>
+</figure>
+<figure>
+<a href="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" aria-label="Enlarge figure: 5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus"><img src="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" alt="5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus" loading="lazy" decoding="async"></a>
+<figcaption>5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus</figcaption>
+</figure>
+</div>
 
 Tracking and embedding fruit-fly movement to study responses to controlled visual stimuli.
 
@@ -149,13 +170,6 @@ Tracking and embedding fruit-fly movement to study responses to controlled visua
 
 <details class="project-details" markdown="1">
 <summary>Methods and context</summary>
-
-<div class="project-figures project-figures--single">
-<figure>
-<a href="/images/projects/5d2f7f1b2ceef661f12ad4c94b764f32.jpg" aria-label="Enlarge figure: Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter"><img src="/images/projects/5d2f7f1b2ceef661f12ad4c94b764f32.jpg" alt="Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter" loading="lazy" decoding="async"></a>
-<figcaption>Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter</figcaption>
-</figure>
-</div>
 
 **Setup:** Apterous *Drosophila* (N = 30) in PTFE-coated 6-well plates, exposed to 32 pseudo-randomized visual parameter combinations (speed 2 to 15 Hz, flicker 0 to 10 Hz, centripetal/centrifugal flow) with 20 s active / 40 s washout blocks.
 
@@ -166,16 +180,26 @@ Tracking and embedding fruit-fly movement to study responses to controlled visua
 </details>
 
 </div>
-</div>
 
-<div class="paper-box" id="greenhouse-gases">
-<div class="paper-box-image"><div><div class="badge">NWSE · 2025</div><a href="/images/projects/4402236d7d4e8ae84c791a71a6b3f753.jpg" aria-label="Enlarge figure: SHAP waterfall: feature-level contribution to predicted CO₂ flux"><img src="/images/projects/4402236d7d4e8ae84c791a71a6b3f753.jpg" alt="SHAP waterfall: feature-level contribution to predicted CO₂ flux" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="greenhouse-gases" markdown="1">
+
+<p class="project-meta">NWSE · 2025</p>
 
 ### Modeling greenhouse gas flux with explainable AI
 
 <p class="paper-authors"><strong>Carmen Wang</strong> · NASA Earth System Science Project Award, NWSE 2025</p>
 <div class="paper-tags"><span class="paper-tag">Explainable AI</span><span class="paper-tag">SHAP</span><span class="paper-tag">Soil biogeochemistry</span></div>
+
+<div class="project-figures">
+<figure>
+<a href="/images/projects/90efd38fc9eaaf495256dfbd414ba254.png" aria-label="Enlarge figure: Field sampling: chamber-syringe protocol + gas chromatography"><img src="/images/projects/90efd38fc9eaaf495256dfbd414ba254.png" alt="Field sampling: chamber-syringe protocol + gas chromatography" loading="lazy" decoding="async"></a>
+<figcaption>Field sampling: chamber-syringe protocol + gas chromatography</figcaption>
+</figure>
+<figure>
+<a href="/images/projects/4402236d7d4e8ae84c791a71a6b3f753.jpg" aria-label="Enlarge figure: SHAP waterfall: feature-level contribution to predicted CO₂ flux"><img src="/images/projects/4402236d7d4e8ae84c791a71a6b3f753.jpg" alt="SHAP waterfall: feature-level contribution to predicted CO₂ flux" loading="lazy" decoding="async"></a>
+<figcaption>SHAP waterfall: feature-level contribution to predicted CO₂ flux</figcaption>
+</figure>
+</div>
 
 A random forest trained on Borneo soil data, interpreted with SHAP and tested on forest and wetland sites at OES.
 
@@ -184,13 +208,6 @@ A random forest trained on Borneo soil data, interpreted with SHAP and tested on
 <details class="project-details" markdown="1">
 <summary>Methods and context</summary>
 
-<div class="project-figures project-figures--single">
-<figure>
-<a href="/images/projects/90efd38fc9eaaf495256dfbd414ba254.png" aria-label="Enlarge figure: Field sampling: chamber-syringe protocol + gas chromatography"><img src="/images/projects/90efd38fc9eaaf495256dfbd414ba254.png" alt="Field sampling: chamber-syringe protocol + gas chromatography" loading="lazy" decoding="async"></a>
-<figcaption>Field sampling: chamber-syringe protocol + gas chromatography</figcaption>
-</figure>
-</div>
-
 **Setup:** Trained on 672 open static-chamber records from a tropical forest landscape in Malaysian Borneo (SAFE project), using seven predictors (soil moisture, soil and air temperature, pH, bulk density, soil carbon, elevation) retained after Pearson screening of 17 candidates. In parallel, measured the same soil properties and CH₄, CO₂, and N₂O fluxes by gas chromatography along transects in a forest and a wetland on the OES campus, using a chamber-syringe protocol (four draws per chamber at T0, T10, T20, T30).
 
 **Model:** Random Forest regressor interpreted with SHAP; on held-out data it explained 14% of the variance in CH₄ flux, 59% in CO₂, and 75% in N₂O. Attributions matched known biogeochemistry: moisture and compaction raised CH₄ predictions, temperature and moisture dominated CO₂, and moisture with low pH dominated N₂O, a pattern consistent with denitrification.
@@ -198,16 +215,26 @@ A random forest trained on Borneo soil data, interpreted with SHAP and tested on
 </details>
 
 </div>
-</div>
 
-<div class="paper-box" id="soil-microcosms">
-<div class="paper-box-image"><div><div class="badge">ASE 1st Place · 2025</div><a href="/images/projects/85b8771a26094ef97ab2eeada29676d4.jpg" aria-label="Enlarge figure: Nitrification rate and denitrification efficiency across four treatments"><img src="/images/projects/85b8771a26094ef97ab2eeada29676d4.jpg" alt="Nitrification rate and denitrification efficiency across four treatments" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="soil-microcosms" markdown="1">
+
+<p class="project-meta">ASE 1st Place · 2025</p>
 
 ### Oxygen availability and nitrogen cycling in soil microcosms
 
 <p class="paper-authors"><strong>Carmen Wang</strong> · Aardvarks Science Exposition, 1st Place</p>
 <div class="paper-tags"><span class="paper-tag">Soil science</span><span class="paper-tag">Gas chromatography</span><span class="paper-tag">Wet lab</span></div>
+
+<div class="project-figures">
+<figure>
+<a href="/images/projects/6dc7dd7352cbbfabb19d77df8dd6b65f.png" aria-label="Enlarge figure: 4-treatment airtight microcosms with syringe gas collection and KCl extraction"><img src="/images/projects/6dc7dd7352cbbfabb19d77df8dd6b65f.png" alt="4-treatment airtight microcosms with syringe gas collection and KCl extraction" loading="lazy" decoding="async"></a>
+<figcaption>4-treatment airtight microcosms with syringe gas collection and KCl extraction</figcaption>
+</figure>
+<figure>
+<a href="/images/projects/85b8771a26094ef97ab2eeada29676d4.jpg" aria-label="Enlarge figure: Nitrification rate and denitrification efficiency across four treatments"><img src="/images/projects/85b8771a26094ef97ab2eeada29676d4.jpg" alt="Nitrification rate and denitrification efficiency across four treatments" loading="lazy" decoding="async"></a>
+<figcaption>Nitrification rate and denitrification efficiency across four treatments</figcaption>
+</figure>
+</div>
 
 A controlled experiment on how oxygen and ammonium availability affect nitrogen cycling.
 
@@ -216,31 +243,35 @@ A controlled experiment on how oxygen and ammonium availability affect nitrogen 
 <details class="project-details" markdown="1">
 <summary>Methods and context</summary>
 
-<div class="project-figures project-figures--single">
-<figure>
-<a href="/images/projects/6dc7dd7352cbbfabb19d77df8dd6b65f.png" aria-label="Enlarge figure: 4-treatment airtight microcosms with syringe gas collection and KCl extraction"><img src="/images/projects/6dc7dd7352cbbfabb19d77df8dd6b65f.png" alt="4-treatment airtight microcosms with syringe gas collection and KCl extraction" loading="lazy" decoding="async"></a>
-<figcaption>4-treatment airtight microcosms with syringe gas collection and KCl extraction</figcaption>
-</figure>
-</div>
-
 **Setup:** Four airtight 1 L jars (300 g soil each) across two oxygen conditions × ±NH₄Cl addition. Anaerobic jars evacuated by hand pump. Headspace gas collected via syringe at 0, 24, 48, 72 h and analyzed by gas chromatography; NH₄⁺/NO₃⁻ measured by microplate reader after 2 N KCl extraction.
 
 </details>
 
 </div>
-</div>
 
 ### Competition and program papers
 {: #papers .subsection-title}
 
-<div class="paper-box" id="himcm-2025">
-<div class="paper-box-image"><div><div class="badge">HiMCM · 2025</div><a href="/images/papers/himcm2025_gat_attention.png" aria-label="Enlarge figure: graph-attention weights over the daycare building graph"><img src="/images/papers/himcm2025_gat_attention.png" alt="Graph-attention weights over the three-floor daycare graph; thicker edges carry more attention" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="himcm-2025" markdown="1">
+
+<p class="project-meta">HiMCM · 2025</p>
 
 ### Emergency evacuation sweeps with graph simulation and multi-agent reinforcement learning
 
 <p class="paper-authors">Team 16980, Oregon Episcopal School · <strong>Carmen Wang</strong>, team leader and primary modeler · HiMCM 2025, Problem A</p>
 <div class="paper-tags"><span class="paper-tag">Mathematical modeling</span><span class="paper-tag">Multi-agent RL</span><span class="paper-tag">Graph attention</span></div>
+<p class="paper-links"><a class="paper-link" href="/files/HiMCM2025_Team16980.pdf">PDF</a></p>
+
+<div class="project-figures">
+<figure>
+<a href="/images/papers/himcm2025_gat_attention.png" aria-label="Enlarge figure: Graph-attention weights over the three-floor daycare graph; thicker edges carry more attention"><img src="/images/papers/himcm2025_gat_attention.png" alt="Graph-attention weights over the three-floor daycare graph; thicker edges carry more attention" loading="lazy" decoding="async"></a>
+<figcaption>Graph-attention weights over the three-floor daycare graph; thicker edges carry more attention</figcaption>
+</figure>
+<figure>
+<a href="/images/papers/himcm2025_office_trajectory.png" aria-label="Enlarge figure: Office sweep routes for two responders from the greedy planner"><img src="/images/papers/himcm2025_office_trajectory.png" alt="Office sweep routes for two responders from the greedy planner" loading="lazy" decoding="async"></a>
+<figcaption>Office sweep routes for two responders from the greedy planner</figcaption>
+</figure>
+</div>
 
 How should responders sweep an office, a multi-floor daycare, and a warehouse during a fire, and how many responders does each building need?
 
@@ -256,16 +287,27 @@ How should responders sweep an office, a multi-floor daycare, and a warehouse du
 </details>
 
 </div>
-</div>
 
-<div class="paper-box" id="himcm-2024">
-<div class="paper-box-image"><div><div class="badge">HiMCM · Honorable Mention</div><a href="/images/papers/himcm2024_flowchart.png" aria-label="Enlarge figure: AHP and entropy-weight fusion with TOPSIS ranking"><img src="/images/papers/himcm2024_flowchart.png" alt="Flowchart: entropy weights and AHP weights fused by grey relational analysis, then ranked by TOPSIS" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="himcm-2024" markdown="1">
+
+<p class="project-meta">HiMCM · Honorable Mention</p>
 
 ### Which sports belong at Brisbane 2032? A multi-criteria evaluation of Olympic events
 
 <p class="paper-authors">Team 15277, Oregon Episcopal School · <strong>Carmen Wang</strong>, team leader · HiMCM 2024, Problem A · Honorable Mention</p>
 <div class="paper-tags"><span class="paper-tag">Decision analysis</span><span class="paper-tag">AHP</span><span class="paper-tag">Entropy weights</span><span class="paper-tag">TOPSIS</span></div>
+<p class="paper-links"><a class="paper-link" href="/files/HiMCM2024_Team15277.pdf">PDF</a></p>
+
+<div class="project-figures">
+<figure>
+<a href="/images/papers/himcm2024_flowchart.png" aria-label="Enlarge figure: Model pipeline: AHP and entropy weights fused by grey relational analysis, then ranked by TOPSIS"><img src="/images/papers/himcm2024_flowchart.png" alt="Model pipeline: AHP and entropy weights fused by grey relational analysis, then ranked by TOPSIS" loading="lazy" decoding="async"></a>
+<figcaption>Model pipeline: AHP and entropy weights fused by grey relational analysis, then ranked by TOPSIS</figcaption>
+</figure>
+<figure>
+<a href="/images/papers/himcm2024_sensitivity.png" aria-label="Enlarge figure: Sensitivity analysis: event scores barely move when each weight is shifted by 5% or 10%"><img src="/images/papers/himcm2024_sensitivity.png" alt="Sensitivity analysis: event scores barely move when each weight is shifted by 5% or 10%" loading="lazy" decoding="async"></a>
+<figcaption>Sensitivity analysis: event scores barely move when each weight is shifted by 5% or 10%</figcaption>
+</figure>
+</div>
 
 A model to help the IOC decide which sports, disciplines, and events to add to or remove from the 2032 Summer Olympics.
 
@@ -281,16 +323,27 @@ A model to help the IOC decide which sports, disciplines, and events to add to o
 </details>
 
 </div>
-</div>
 
-<div class="paper-box" id="norman-sicily">
-<div class="paper-box-image"><div><div class="badge">MehtA+ · 2025</div><a href="/images/papers/sicily_clusters.png" aria-label="Enlarge figure: k-means clusters of Norman fortifications in Sicily"><img src="/images/papers/sicily_clusters.png" alt="Map of Sicily with fortifications colored by k-means cluster; an inland region with no sites is circled" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="norman-sicily" markdown="1">
+
+<p class="project-meta">MehtA+ · 2025</p>
 
 ### ML-driven insights into the geosocial dynamics of Norman Sicily
 
 <p class="paper-authors"><strong>Carmen Wang</strong>, Nischith Srikanth, Vivian Tang, Selina Zhang · MehtA+ AI/ML Research Bootcamp, with the Norman Sicily Project (Montclair State University)</p>
 <div class="paper-tags"><span class="paper-tag">Digital humanities</span><span class="paper-tag">Clustering</span><span class="paper-tag">RAG chatbot</span></div>
+<p class="paper-links"><a class="paper-link" href="/files/Norman_Sicily_MehtA.pdf">PDF</a></p>
+
+<div class="project-figures">
+<figure>
+<a href="/images/papers/sicily_clusters.png" aria-label="Enlarge figure: Fortifications grouped by k-means (k = 3); the circled inland region has no recorded sites"><img src="/images/papers/sicily_clusters.png" alt="Fortifications grouped by k-means (k = 3); the circled inland region has no recorded sites" loading="lazy" decoding="async"></a>
+<figcaption>Fortifications grouped by k-means (k = 3); the circled inland region has no recorded sites</figcaption>
+</figure>
+<figure>
+<a href="/images/papers/sicily_chatbot_flow.png" aria-label="Enlarge figure: Chatbot design: GPT-4o routes each question to a retrieval tool or a pandas-query tool"><img src="/images/papers/sicily_chatbot_flow.png" alt="Chatbot design: GPT-4o routes each question to a retrieval tool or a pandas-query tool" loading="lazy" decoding="async"></a>
+<figcaption>Chatbot design: GPT-4o routes each question to a retrieval tool or a pandas-query tool</figcaption>
+</figure>
+</div>
 
 Settlement and elevation patterns of monasteries and fortifications in Norman Sicily (c. 1061 to 1194), plus a chatbot that lets historians query the project's records.
 
@@ -310,16 +363,27 @@ Settlement and elevation patterns of monasteries and fortifications in Norman Si
 </details>
 
 </div>
-</div>
 
-<div class="paper-box" id="catalan-rhetoric">
-<div class="paper-box-image"><div><div class="badge">MehtA+ · 2025</div><a href="/images/papers/catalan_pathos_prompt.png" aria-label="Enlarge figure: few-shot prompt used to detect pathos"><img src="/images/papers/catalan_pathos_prompt.png" alt="Few-shot prompt asking an LLM to find emotional appeals in 15th-century Spanish and Catalan text" loading="lazy" decoding="async"></a></div></div>
-<div class="paper-box-text" markdown="1">
+<div class="paper-box" id="catalan-rhetoric" markdown="1">
+
+<p class="project-meta">MehtA+ · 2025</p>
 
 ### Identifying rhetorical devices in 15th-century Spanish and Catalan literature
 
 <p class="paper-authors">Selina Z., <strong>Carmen Wang</strong>, Haripriya T., Kathleen L. · MehtA+ AI/ML Research Bootcamp</p>
 <div class="paper-tags"><span class="paper-tag">NLP</span><span class="paper-tag">BERT</span><span class="paper-tag">Few-shot LLMs</span><span class="paper-tag">Low-resource text</span></div>
+<p class="paper-links"><a class="paper-link" href="/files/Rhetorical_Devices_Spanish_Catalan_MehtA.pdf">PDF</a></p>
+
+<div class="project-figures">
+<figure>
+<a href="/images/papers/catalan_pathos_prompt.png" aria-label="Enlarge figure: Few-shot prompt used to find pathos in 15th-century Spanish and Catalan text"><img src="/images/papers/catalan_pathos_prompt.png" alt="Few-shot prompt used to find pathos in 15th-century Spanish and Catalan text" loading="lazy" decoding="async"></a>
+<figcaption>Few-shot prompt used to find pathos in 15th-century Spanish and Catalan text</figcaption>
+</figure>
+<figure>
+<a href="/images/papers/catalan_metaphor_scores.png" aria-label="Enlarge figure: Metaphor classifier: precision, recall, and F1 by class on the 13-sentence test set"><img src="/images/papers/catalan_metaphor_scores.png" alt="Metaphor classifier: precision, recall, and F1 by class on the 13-sentence test set" loading="lazy" decoding="async"></a>
+<figcaption>Metaphor classifier: precision, recall, and F1 by class on the 13-sentence test set</figcaption>
+</figure>
+</div>
 
 Can machine learning find metaphor, anaphora, pathos, and parallelism in partially annotated texts by three 15th-century Iberian women writers?
 
@@ -334,7 +398,6 @@ Can machine learning find metaphor, anaphora, pathos, and parallelism in partial
 
 </details>
 
-</div>
 </div>
 
 
