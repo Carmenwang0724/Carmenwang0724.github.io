@@ -1,7 +1,4 @@
 main:
-  - title: "About"
-    url: "/#about-me"
-
   - title: "News"
     url: "/#news"
 
@@ -10,6 +7,9 @@ main:
 
   - title: "Experience"
     url: "/#experience"
+
+  - title: "Service"
+    url: "/#service"
 
   - title: "Honors"
     url: "/#honors"

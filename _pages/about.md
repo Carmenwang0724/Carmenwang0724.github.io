@@ -32,7 +32,7 @@ My recent work explores identifiable representations in world models, computer v
   <li><span class="entry-date">Aug 2026</span><div>Completed <strong>Pioneer Academics</strong> with an audit of EJScreen's PM₂.₅ estimates.</div></li>
   <li><span class="entry-date">Apr 2026</span><div><strong>1st Place in Oregon</strong>, Purple Comet Math Meet.</div></li>
   <li><span class="entry-date">2026</span><div>Animal Science: <strong>1st Place at ASE</strong> and <strong>3rd Place at NWSE</strong>.</div></li>
-  <li><span class="entry-date">Jun 2025</span><div>GHG Regressor nominated for the <strong>Northwest Science Expo</strong>.</div></li>
+  <li><span class="entry-date">May 2025</span><div><strong>NASA Earth System Science Project Award</strong> at the Northwest Science Expo for my greenhouse gas flux model.</div></li>
 </ul>
 
 <span class="legacy-anchor" id="-research" aria-hidden="true"></span>
@@ -50,7 +50,7 @@ My recent work explores identifiable representations in world models, computer v
 
 <div class="project-figures project-figures--single">
 <figure>
-<a href="/images/papers/jepa_concept.png" aria-label="Enlarge figure: Schematic of the question, not a result from the manuscript"><img src="/images/papers/jepa_concept.png" alt="Schematic of the question, not a result from the manuscript" loading="lazy" decoding="async"></a>
+<a href="/images/papers/jepa_concept.png" aria-label="Enlarge figure: Schematic of the question, not a result from the manuscript"><img src="/images/papers/jepa_concept.png" alt="Schematic: two factors mixed across coordinates on the left, aligned with one coordinate each on the right" loading="lazy" decoding="async"></a>
 <figcaption>Schematic of the question, not a result from the manuscript</figcaption>
 </figure>
 </div>
@@ -146,11 +146,11 @@ An audit of whether a national air-pollution surface preserves the exposure disp
 
 <div class="paper-box" id="visual-behavior" markdown="1">
 
-<p class="project-meta">Research poster · 2025</p>
+<p class="project-meta">ASE 1st · NWSE 3rd · 2026</p>
 
 ### Mapping visually evoked behavior in *Drosophila*
 
-<p class="paper-authors"><strong>Carmen Wang</strong> · Independent research, Oregon Episcopal School</p>
+<p class="paper-authors"><strong>Carmen Wang</strong> · Independent research, Oregon Episcopal School · Animal Science, 1st Place at ASE and 3rd Place at NWSE 2026</p>
 <div class="paper-tags"><span class="paper-tag">Computational ethology</span><span class="paper-tag">Pose tracking</span><span class="paper-tag">GMVAE</span></div>
 
 <div class="project-figures">
@@ -159,8 +159,8 @@ An audit of whether a national air-pollution surface preserves the exposure disp
 <figcaption>Inverted arena: iPad Pro (120 Hz) + global-shutter CMOS, red-pass filter</figcaption>
 </figure>
 <figure>
-<a href="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" aria-label="Enlarge figure: 5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus"><img src="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" alt="5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus" loading="lazy" decoding="async"></a>
-<figcaption>5.2M frames embedded via GMVAE + UMAP: baseline vs. active stimulus</figcaption>
+<a href="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" aria-label="Enlarge figure: Behavioral atlas: GMVAE embedding projected with UMAP, baseline vs. active stimulus"><img src="/images/projects/b0ff99af9d3b7d292ddd54676ee4dea2.png" alt="Behavioral atlas: GMVAE embedding projected with UMAP, baseline vs. active stimulus" loading="lazy" decoding="async"></a>
+<figcaption>Behavioral atlas: GMVAE embedding projected with UMAP, baseline vs. active stimulus</figcaption>
 </figure>
 </div>
 
@@ -422,7 +422,7 @@ Can machine learning find metaphor, anaphora, pathos, and parallelism in partial
   </div>
 </article>
 <article class="experience-entry">
-  <p class="entry-date">May to Sep 2026</p>
+  <p class="entry-date">Summer 2026</p>
   <div>
     <h3>Simões Lab, Reed College</h3>
     <p class="entry-role">Research Assistant</p>
@@ -439,6 +439,69 @@ Can machine learning find metaphor, anaphora, pathos, and parallelism in partial
 </article>
 </div>
 
+<span class="legacy-anchor" id="-service" aria-hidden="true"></span>
+## Service & leadership
+{: #service .section-title}
+
+<div class="experience-list">
+<article class="experience-entry">
+  <p class="entry-date">2025 to present</p>
+  <div>
+    <h3>CASH Oregon, Beaverton Tax Site</h3>
+    <p class="entry-role">IRS-Certified Tax Volunteer (Advanced)</p>
+    <p>Completed IRS Link &amp; Learn training and Advanced certification for free tax preparation for low-income families. Built the Gig Worker Prep Kit, a bilingual, phone-first web tool that helps gig workers check whether their return is in scope and gather documents before a visit, now with the site coordinators for review.</p>
+  </div>
+</article>
+<article class="experience-entry">
+  <p class="entry-date">Grade 12</p>
+  <div>
+    <h3>AP Calculus BC</h3>
+    <p class="entry-role">Teaching Assistant</p>
+    <p>Supporting 47 students during work periods, holding office hours every other week, and writing short materials aimed at recurring misunderstandings.</p>
+  </div>
+</article>
+<article class="experience-entry">
+  <p class="entry-date">Grades 9 to 12</p>
+  <div>
+    <h3>Math Club</h3>
+    <p class="entry-role">Leader (Grade 12)</p>
+    <p>Writing original problems for club-hosted middle-school competitions, tutoring middle-school students, and running a schoolwide Problem of the Month with 30+ participants.</p>
+  </div>
+</article>
+<article class="experience-entry">
+  <p class="entry-date">Grades 11 to 12</p>
+  <div>
+    <h3>Computer Science Club</h3>
+    <p class="entry-role">Co-Leader and Programming Mentor</p>
+    <p>Teaching CNN, RNN, and GNN architectures with real datasets, mentoring middle-school students in Python, and helping five members add machine learning to their own research projects.</p>
+  </div>
+</article>
+<article class="experience-entry">
+  <p class="entry-date">Grades 9 to 12</p>
+  <div>
+    <h3>Resonance Piano Trio</h3>
+    <p class="entry-role">Founder and Cellist</p>
+    <p>Founded a trio with two fellow international students and performed monthly at Raleigh Hills Memory Care and in school chapel, bringing prompts that invite residents to share their memories.</p>
+  </div>
+</article>
+<article class="experience-entry">
+  <p class="entry-date">Grade 12</p>
+  <div>
+    <h3>Boarding Program, Oregon Episcopal School</h3>
+    <p class="entry-role">Dorm Prefect</p>
+    <p>Helping new students settle into the dorms and working with dorm parents on roommate agreements and a respectful check-in process for residents.</p>
+  </div>
+</article>
+<article class="experience-entry">
+  <p class="entry-date">Grades 9 to 12</p>
+  <div>
+    <h3>Theater and The Dig</h3>
+    <p class="entry-role">Actor, Playwright, Tech Crew · Writer and Print Designer</p>
+    <p>Acting, set and prop work, and an original short play brought to a staged reading; writing features, an explainer on how large language models work, and satire for the school newspaper.</p>
+  </div>
+</article>
+</div>
+
 <span class="legacy-anchor" id="-honors--awards" aria-hidden="true"></span>
 ## Honors & awards
 {: #honors .section-title}
@@ -450,8 +513,8 @@ Can machine learning find metaphor, anaphora, pathos, and parallelism in partial
   <li><span class="entry-date">2025, 2026</span><div><strong>AIME Qualifier</strong></div></li>
   <li><span class="entry-date">May 2025</span><div><strong>NASA Earth System Science Project Award</strong> · NWSE</div></li>
   <li><span class="entry-date">Mar 2025</span><div>ASE Environmental Science · <strong>1st Place</strong></div></li>
-  <li><span class="entry-date">Nov 2024</span><div>HiMCM · Honorable Mention</div></li>
-  <li><span class="entry-date">Nov 2024</span><div>AMC 12: 118.5 (top 5%) · AMC 12B: 94.5</div></li>
+  <li><span class="entry-date">2025</span><div>HiMCM 2024, Problem A · <strong>Honorable Mention</strong></div></li>
+  <li><span class="entry-date">2024, 2025</span><div>AMC 12 · <strong>Top 5%</strong> (best score 118.5)</div></li>
 </ul>
 
 <span class="legacy-anchor" id="-skills" aria-hidden="true"></span>
