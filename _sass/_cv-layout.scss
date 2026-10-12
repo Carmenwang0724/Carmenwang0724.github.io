@@ -269,3 +269,14 @@ a:focus-visible, summary:focus-visible {
   .project-details p { font-size: .95rem; }
   .entry-date, .project-meta, .paper-tag, .paper-link, summary, figcaption, .paper-authors, .eyebrow { font-family: $sans-serif; }
 }
+
+/* Looping result animations inside a card. */
+.page__content .project-figures--video { margin-top: 0; }
+.page__content .project-figures--video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid $cv-rule;
+  border-radius: 6px;
+}

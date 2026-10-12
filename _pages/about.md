@@ -55,6 +55,15 @@ My recent work explores identifiable representations in world models, computer v
 </figure>
 </div>
 
+<div class="project-figures project-figures--wide project-figures--video">
+<figure>
+<video autoplay loop muted playsinline preload="metadata" poster="/images/papers/joint_readout_poster.png" aria-label="Animation: shoulder-angle readouts from four models as a simulated arm sweeps">
+<source src="/images/papers/joint_readout.mp4" type="video/mp4">
+</video>
+<figcaption>Reading the shoulder angle off a learned representation while the arm sweeps through a full turn. White ring: true joint; filled link: the linear readout; number: angle error. An exploratory result, not from the manuscript.</figcaption>
+</figure>
+</div>
+
 When do predictive representations separate meaningful physical factors rather than mix them across coordinates?
 
 **Key result:** The study identifies conditions that improve the alignment between learned coordinates and physical factors while preserving predictive information.
