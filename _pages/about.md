@@ -321,13 +321,6 @@ How should responders sweep an office, a multi-floor daycare, and a warehouse du
 </figure>
 </div>
 
-<div class="project-figures project-figures--single">
-<figure>
-<a href="/images/papers/himcm2024_sensitivity.png" aria-label="Enlarge figure: Sensitivity analysis: event scores barely move when each weight is shifted by 5% or 10%"><img src="/images/papers/himcm2024_sensitivity.png" alt="Sensitivity analysis: event scores barely move when each weight is shifted by 5% or 10%" loading="lazy" decoding="async"></a>
-<figcaption>Sensitivity analysis: event scores barely move when each weight is shifted by 5% or 10%</figcaption>
-</figure>
-</div>
-
 A model to help the IOC decide which sports, disciplines, and events to add to or remove from the 2032 Summer Olympics.
 
 **Key result:** The model ranked long-standing sports above recent additions, held up under a weight-sensitivity analysis, and identified boxing, flying disc, and Australian rules football as the strongest candidates for 2032.
