@@ -314,11 +314,14 @@ How should responders sweep an office, a multi-floor daycare, and a warehouse du
 <div class="paper-tags"><span class="paper-tag">Decision analysis</span><span class="paper-tag">AHP</span><span class="paper-tag">Entropy weights</span><span class="paper-tag">TOPSIS</span></div>
 <p class="paper-links"><a class="paper-link" href="/files/HiMCM2024_Team15277.pdf">PDF</a></p>
 
-<div class="project-figures">
+<div class="project-figures project-figures--wide">
 <figure>
-<a href="/images/papers/himcm2024_flowchart.png" aria-label="Enlarge figure: Model pipeline: AHP and entropy weights fused by grey relational analysis, then ranked by TOPSIS"><img src="/images/papers/himcm2024_flowchart.png" alt="Model pipeline: AHP and entropy weights fused by grey relational analysis, then ranked by TOPSIS" loading="lazy" decoding="async"></a>
-<figcaption>Model pipeline: AHP and entropy weights fused by grey relational analysis, then ranked by TOPSIS</figcaption>
+<a href="/images/papers/himcm2024_framework.png" aria-label="Enlarge figure: Model pipeline: entropy weights from data and AHP weights from expert judgments are fused by grey relational analysis, then events are ranked by TOPSIS closeness"><img src="/images/papers/himcm2024_framework.png" alt="Model pipeline: entropy weights from data and AHP weights from expert judgments are fused by grey relational analysis, then events are ranked by TOPSIS closeness" loading="lazy" decoding="async"></a>
+<figcaption>Model pipeline: entropy weights from data and AHP weights from expert judgments are fused by grey relational analysis, then events are ranked by TOPSIS closeness</figcaption>
 </figure>
+</div>
+
+<div class="project-figures project-figures--single">
 <figure>
 <a href="/images/papers/himcm2024_sensitivity.png" aria-label="Enlarge figure: Sensitivity analysis: event scores barely move when each weight is shifted by 5% or 10%"><img src="/images/papers/himcm2024_sensitivity.png" alt="Sensitivity analysis: event scores barely move when each weight is shifted by 5% or 10%" loading="lazy" decoding="async"></a>
 <figcaption>Sensitivity analysis: event scores barely move when each weight is shifted by 5% or 10%</figcaption>
