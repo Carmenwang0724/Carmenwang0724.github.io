@@ -180,7 +180,7 @@ Tracking and embedding fruit-fly movement to study responses to controlled visua
 <details class="project-details" markdown="1">
 <summary>Methods and context</summary>
 
-**Setup:** Apterous *Drosophila* (N = 30) in PTFE-coated 6-well plates, exposed to 32 pseudo-randomized visual parameter combinations (speed 2 to 15 Hz, flicker 0 to 10 Hz, centripetal/centrifugal flow) with 20 s active / 40 s washout blocks.
+**Setup:** Apterous *Drosophila* (N = 60: 30 exposed, 30 controls) in PTFE-coated 6-well plates; the exposed flies received 32 pseudo-randomized visual parameter combinations (speed 2 to 15 Hz, flicker 0 to 10 Hz, centripetal/centrifugal flow) with 20 s active / 40 s washout blocks.
 
 **Pipeline:** UNet body-part tracker (head/thorax/abdomen) → kinematic feature extraction (velocity, spine angle, thigmotaxis index, postural jitter) → Gaussian Mixture VAE embedding into a 20-cluster behavioral atlas.
 
@@ -192,11 +192,11 @@ Tracking and embedding fruit-fly movement to study responses to controlled visua
 
 <div class="paper-box" id="greenhouse-gases" markdown="1">
 
-<p class="project-meta">NWSE · 2025</p>
+<p class="project-meta">ASE 1st · NWSE NASA Award · 2025</p>
 
 ### Modeling greenhouse gas flux with explainable AI
 
-<p class="paper-authors"><strong>Carmen Wang</strong> · NASA Earth System Science Project Award, NWSE 2025</p>
+<p class="paper-authors"><strong>Carmen Wang</strong> · Environmental Science, 1st Place at ASE · NASA Earth System Science Project Award, NWSE 2025</p>
 <div class="paper-tags"><span class="paper-tag">Explainable AI</span><span class="paper-tag">SHAP</span><span class="paper-tag">Soil biogeochemistry</span></div>
 
 <div class="project-figures">
@@ -227,11 +227,11 @@ A random forest trained on Borneo soil data, interpreted with SHAP and tested on
 
 <div class="paper-box" id="soil-microcosms" markdown="1">
 
-<p class="project-meta">ASE 1st Place · 2025</p>
+<p class="project-meta">OES · 2025</p>
 
 ### Oxygen availability and nitrogen cycling in soil microcosms
 
-<p class="paper-authors"><strong>Carmen Wang</strong> · Aardvarks Science Exposition, 1st Place</p>
+<p class="paper-authors"><strong>Carmen Wang</strong> · Class experiment, Oregon Episcopal School</p>
 <div class="paper-tags"><span class="paper-tag">Soil science</span><span class="paper-tag">Gas chromatography</span><span class="paper-tag">Wet lab</span></div>
 
 <div class="project-figures">
@@ -423,7 +423,7 @@ Can machine learning find metaphor, anaphora, pathos, and parallelism in partial
   <div>
     <h3>Mao Lab, Oregon Health &amp; Science University</h3>
     <p class="entry-role">Neuroscience Research Volunteer</p>
-    <p>Annotating cells in 3D microscopy volumes in napari, reviewing trial annotations with the lab's imaging lead, and resolving ambiguous cases. The labels serve as ground truth for segmentation models.</p>
+    <p>Annotating cell centers in 3D mouse-brain volumes in napari, reviewing trial annotations with the lab's imaging lead, and resolving ambiguous cases. The labels serve as ground truth for automated cell detection.</p>
   </div>
 </article>
 <article class="experience-entry">
@@ -454,7 +454,7 @@ Can machine learning find metaphor, anaphora, pathos, and parallelism in partial
   <div>
     <h3>CASH Oregon, Beaverton Tax Site</h3>
     <p class="entry-role">IRS-Certified Tax Volunteer (Advanced)</p>
-    <p>Completed IRS Link &amp; Learn training and Advanced certification for free tax preparation for low-income families. Built the Gig Worker Prep Kit, a bilingual, phone-first web tool that helps gig workers check whether their return is in scope and gather documents before a visit, now with the site coordinators for review.</p>
+    <p>Completed IRS Link &amp; Learn training and Advanced certification for free tax preparation for low-income families. Built the Gig Worker Prep Kit, an independent, phone-first web tool that clients use to check whether their return is in scope and to gather documents before a visit.</p>
   </div>
 </article>
 <article class="experience-entry">
@@ -469,7 +469,7 @@ Can machine learning find metaphor, anaphora, pathos, and parallelism in partial
   <p class="entry-date">Grades 9 to 12</p>
   <div>
     <h3>Math Club</h3>
-    <p class="entry-role">Leader (Grade 12)</p>
+    <p class="entry-role">Co-Leader (Grade 12)</p>
     <p>Writing original problems for club-hosted middle-school competitions, tutoring middle-school students, and running a schoolwide Problem of the Month with 30+ participants.</p>
   </div>
 </article>
